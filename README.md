@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
   <img src="resources/AvalancheLogoRed.png?raw=true">
 </div>
@@ -180,3 +181,6 @@ docker run -t -i -v $(pwd):/opt/avalanche -w/opt/avalanche avalanche:protobuf_co
 **We and our community welcome responsible disclosures.**
 
 If you've discovered a security vulnerabilitiy, please report it via our [bug bounty program](https://hackenproof.com/avalanche/). Valid reports will be eligible for a reward (terms and conditions apply).
+=======
+test
+>>>>>>> fa0502a80be519c6d0f22dbc7ba1fb885be9ed2a
