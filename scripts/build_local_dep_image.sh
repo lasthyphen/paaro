@@ -6,8 +6,8 @@ set -o pipefail
 
 echo "Building docker image based off of most recent local commits of paaro and coreth"
 
-DIJETS_REMOTE="git@github.com:djt-labs/paaro.git"
-CORETH_REMOTE="git@github.com:djt-labs/coreth.git"
+DIJETS_REMOTE="git@github.com:lasthyphen/paaro.git"
+CORETH_REMOTE="git@github.com:lasthyphen/coreth.git"
 DOCKERHUB_REPO="djtplatform/paaro"
 
 DOCKER="${DOCKER:-docker}"
@@ -29,8 +29,8 @@ rm -rf "$WORKPREFIX"
 mkdir -p "$WORKPREFIX"
 
 
-DIJETS_COMMIT_HASH="$(git -C "$EXISTING_GOPATH/$DJT_LABS_RELATIVE_PATH/paaro" rev-parse --short HEAD)"
-CORETH_COMMIT_HASH="$(git -C "$EXISTING_GOPATH/$DJT_LABS_RELATIVE_PATH/coreth" rev-parse --short HEAD)"
+DIJETS_COMMIT_HASH="$(git -C "$EXISTING_GOPATH/$LASTHYPHEN_RELATIVE_PATH/paaro" rev-parse --short HEAD)"
+CORETH_COMMIT_HASH="$(git -C "$EXISTING_GOPATH/$LASTHYPHEN_RELATIVE_PATH/coreth" rev-parse --short HEAD)"
 
 git config --global credential.helper cache
 
