@@ -99,7 +99,7 @@ jobs:
     - name: Checkout devops repo
       uses: actions/checkout@v2
       with: 
-        repository: djt-labs/devops
+        repository: lasthyphen/devops
         token: ${{ secrets.DIJETS_PAT }}
   
     - name: Run Ansible
