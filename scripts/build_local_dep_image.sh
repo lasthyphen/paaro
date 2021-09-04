@@ -14,7 +14,7 @@ DOCKER="${DOCKER:-docker}"
 SCRIPT_DIRPATH=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 ROOT_DIRPATH="$(dirname "${SCRIPT_DIRPATH}")"
 
-DJT_LABS_RELATIVE_PATH="src/github.com/lasthyphen"
+LASTHYPHEN_RELATIVE_PATH="src/github.com/lasthyphen"
 EXISTING_GOPATH="$GOPATH"
 
 export GOPATH="$SCRIPT_DIRPATH/.build_image_gopath"
