@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/lasthyphen/paaro/coreth/core/state"
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/core/state"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 
 	"github.com/lasthyphen/paaro/chains/atomic"
 	"github.com/lasthyphen/paaro/database"

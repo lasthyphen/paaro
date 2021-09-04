@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
 )

@@ -31,8 +31,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lasthyphen/paaro/coreth/core/types"
-	"github.com/lasthyphen/paaro/coreth/internal/ethapi"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/internal/ethapi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

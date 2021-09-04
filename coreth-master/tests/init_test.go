@@ -40,7 +40,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 )
 
 func readJSON(reader io.Reader, value interface{}) error {

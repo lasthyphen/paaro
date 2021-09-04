@@ -27,9 +27,9 @@
 package core
 
 import (
-	"github.com/lasthyphen/paaro/coreth/core/state"
-	"github.com/lasthyphen/paaro/coreth/core/types"
-	"github.com/lasthyphen/paaro/coreth/core/vm"
+	"github.com/lasthyphen/paaro/coreth-master/core/state"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

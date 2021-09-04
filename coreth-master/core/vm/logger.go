@@ -34,8 +34,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lasthyphen/paaro/coreth/core/types"
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"

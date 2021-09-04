@@ -30,11 +30,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/lasthyphen/paaro/coreth/consensus/dummy"
-	"github.com/lasthyphen/paaro/coreth/core/rawdb"
-	"github.com/lasthyphen/paaro/coreth/core/types"
-	"github.com/lasthyphen/paaro/coreth/core/vm"
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/consensus/dummy"
+	"github.com/lasthyphen/paaro/coreth-master/core/rawdb"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/core/vm"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

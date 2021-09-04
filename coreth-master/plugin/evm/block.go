@@ -12,8 +12,8 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/lasthyphen/paaro/coreth/core/types"
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 
 	"github.com/lasthyphen/paaro/ids"
 	"github.com/lasthyphen/paaro/snow/choices"

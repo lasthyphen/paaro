@@ -27,8 +27,8 @@
 package node
 
 import (
-	"github.com/lasthyphen/paaro/coreth/internal/debug"
-	"github.com/lasthyphen/paaro/coreth/rpc"
+	"github.com/lasthyphen/paaro/coreth-master/internal/debug"
+	"github.com/lasthyphen/paaro/coreth-master/rpc"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 )

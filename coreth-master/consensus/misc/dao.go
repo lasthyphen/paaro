@@ -31,9 +31,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/lasthyphen/paaro/coreth/core/state"
-	"github.com/lasthyphen/paaro/coreth/core/types"
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/core/state"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 )
 
 var (

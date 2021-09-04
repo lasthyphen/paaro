@@ -31,8 +31,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/event"
 
-	"github.com/lasthyphen/paaro/coreth/accounts"
-	"github.com/lasthyphen/paaro/coreth/rpc"
+	"github.com/lasthyphen/paaro/coreth-master/accounts"
+	"github.com/lasthyphen/paaro/coreth-master/rpc"
 )
 
 // Node is a container on which services can be registered.

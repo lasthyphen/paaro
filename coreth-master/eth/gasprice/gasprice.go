@@ -33,10 +33,10 @@ import (
 	"sync"
 
 	"github.com/lasthyphen/paaro/utils/timer"
-	"github.com/lasthyphen/paaro/coreth/consensus/dummy"
-	"github.com/lasthyphen/paaro/coreth/core/types"
-	"github.com/lasthyphen/paaro/coreth/params"
-	"github.com/lasthyphen/paaro/coreth/rpc"
+	"github.com/lasthyphen/paaro/coreth-master/consensus/dummy"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/params"
+	"github.com/lasthyphen/paaro/coreth-master/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

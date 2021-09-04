@@ -29,10 +29,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/lasthyphen/paaro/coreth/interfaces"
+	"github.com/lasthyphen/paaro/coreth-master/interfaces"
 
-	"github.com/lasthyphen/paaro/coreth/accounts"
-	"github.com/lasthyphen/paaro/coreth/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/accounts"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 )
 

@@ -1,4 +1,4 @@
-module github.com/lasthyphen/paaro/coreth
+module github.com/lasthyphen/paaro/coreth-master
 
 go 1.15
 

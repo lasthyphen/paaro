@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 )
 
 type mockGasPriceSetter struct {

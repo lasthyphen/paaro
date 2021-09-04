@@ -27,8 +27,8 @@
 package runtime
 
 import (
-	"github.com/lasthyphen/paaro/coreth/core"
-	"github.com/lasthyphen/paaro/coreth/core/vm"
+	"github.com/lasthyphen/paaro/coreth-master/core"
+	"github.com/lasthyphen/paaro/coreth-master/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

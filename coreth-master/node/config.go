@@ -32,11 +32,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/lasthyphen/paaro/coreth/accounts"
-	"github.com/lasthyphen/paaro/coreth/accounts/external"
-	"github.com/lasthyphen/paaro/coreth/accounts/keystore"
+	"github.com/lasthyphen/paaro/coreth-master/accounts"
+	"github.com/lasthyphen/paaro/coreth-master/accounts/external"
+	"github.com/lasthyphen/paaro/coreth-master/accounts/keystore"
 
-	"github.com/lasthyphen/paaro/coreth/rpc"
+	"github.com/lasthyphen/paaro/coreth-master/rpc"
 	"github.com/ethereum/go-ethereum/log"
 )
 

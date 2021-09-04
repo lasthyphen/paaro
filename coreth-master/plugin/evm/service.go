@@ -17,7 +17,7 @@ import (
 	"github.com/lasthyphen/paaro/utils/crypto"
 	"github.com/lasthyphen/paaro/utils/formatting"
 	"github.com/lasthyphen/paaro/utils/json"
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"

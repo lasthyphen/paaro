@@ -12,8 +12,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/lasthyphen/paaro/coreth/core/state"
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/core/state"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 
 	"github.com/lasthyphen/paaro/codec"
 	"github.com/lasthyphen/paaro/database"

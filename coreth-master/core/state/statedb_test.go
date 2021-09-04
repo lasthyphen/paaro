@@ -39,9 +39,9 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/lasthyphen/paaro/coreth/core/rawdb"
-	"github.com/lasthyphen/paaro/coreth/core/state/snapshot"
-	"github.com/lasthyphen/paaro/coreth/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/core/rawdb"
+	"github.com/lasthyphen/paaro/coreth-master/core/state/snapshot"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

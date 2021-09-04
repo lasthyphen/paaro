@@ -29,9 +29,9 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/lasthyphen/paaro/coreth/core"
-	"github.com/lasthyphen/paaro/coreth/eth/gasprice"
-	"github.com/lasthyphen/paaro/coreth/miner"
+	"github.com/lasthyphen/paaro/coreth-master/core"
+	"github.com/lasthyphen/paaro/coreth-master/eth/gasprice"
+	"github.com/lasthyphen/paaro/coreth-master/miner"
 	"github.com/ethereum/go-ethereum/common"
 )
 

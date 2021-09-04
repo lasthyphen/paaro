@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 )
 
 func TestCalculateDynamicFee(t *testing.T) {

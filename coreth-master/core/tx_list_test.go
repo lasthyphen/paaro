@@ -31,7 +31,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/lasthyphen/paaro/coreth/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 )
 

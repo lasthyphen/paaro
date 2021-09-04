@@ -31,7 +31,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/lasthyphen/paaro/coreth/eth/tracers/internal/tracers"
+	"github.com/lasthyphen/paaro/coreth-master/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

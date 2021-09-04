@@ -27,7 +27,7 @@
 package vm
 
 import (
-	"github.com/lasthyphen/paaro/coreth/params"
+	"github.com/lasthyphen/paaro/coreth-master/params"
 )
 
 func minSwapStack(n int) int {

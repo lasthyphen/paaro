@@ -31,7 +31,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/lasthyphen/paaro/coreth/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

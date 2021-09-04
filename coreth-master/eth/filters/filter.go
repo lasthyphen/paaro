@@ -32,12 +32,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/lasthyphen/paaro/coreth/core/vm"
+	"github.com/lasthyphen/paaro/coreth-master/core/vm"
 
-	"github.com/lasthyphen/paaro/coreth/core"
-	"github.com/lasthyphen/paaro/coreth/core/bloombits"
-	"github.com/lasthyphen/paaro/coreth/core/types"
-	"github.com/lasthyphen/paaro/coreth/rpc"
+	"github.com/lasthyphen/paaro/coreth-master/core"
+	"github.com/lasthyphen/paaro/coreth-master/core/bloombits"
+	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/paaro/coreth-master/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/event"
