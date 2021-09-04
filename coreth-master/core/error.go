@@ -29,7 +29,7 @@ package core
 import (
 	"errors"
 
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/coreth/core/types"
 )
 
 var (

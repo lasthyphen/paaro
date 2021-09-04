@@ -34,7 +34,7 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/lasthyphen/paaro/coreth-master/params"
+	"github.com/lasthyphen/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"

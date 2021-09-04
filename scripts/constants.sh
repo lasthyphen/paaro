@@ -9,7 +9,7 @@ DIJETS_PATH=$( cd "$( dirname "${BASH_SOURCE[0]}" )"; cd .. && pwd ) # Directory
 
 # Set the PATHS
 GOPATH="$(go env GOPATH)"
-coreth_path="$GOPATH/pkg/mod/github.com/lasthyphen/coreth@$coreth_version"
+coreth_path="$GOPATH/pkg/mod/github.com/lasthyphen/paaro/coreth@$coreth_version"
 
 # Where Paaro binary goes
 build_dir="$DIJETS_PATH/build"

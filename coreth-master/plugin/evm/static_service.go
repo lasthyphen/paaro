@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 
 	"github.com/lasthyphen/paaro/utils/formatting"
-	"github.com/lasthyphen/paaro/coreth-master/core"
+	"github.com/lasthyphen/coreth/core"
 )
 
 // StaticService defines the static API services exposed by the evm

@@ -33,7 +33,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -51,7 +51,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lasthyphen/paaro/coreth-master/accounts"
+	"github.com/lasthyphen/coreth/accounts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/ethereum/go-ethereum/log"

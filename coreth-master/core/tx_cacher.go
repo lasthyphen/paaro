@@ -29,7 +29,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/coreth/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

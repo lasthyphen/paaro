@@ -12,7 +12,7 @@ import (
 
 	"github.com/lasthyphen/paaro/vms/rpcchainvm"
 
-	"github.com/lasthyphen/paaro/coreth-master/plugin/evm"
+	"github.com/lasthyphen/coreth/plugin/evm"
 )
 
 func main() {

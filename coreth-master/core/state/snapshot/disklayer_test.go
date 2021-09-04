@@ -32,7 +32,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/lasthyphen/paaro/coreth-master/core/rawdb"
+	"github.com/lasthyphen/coreth/core/rawdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/ethdb/leveldb"

@@ -35,9 +35,9 @@ import (
 	"math/big"
 
 	"github.com/lasthyphen/paaro/ids"
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
-	"github.com/lasthyphen/paaro/coreth-master/interfaces"
-	"github.com/lasthyphen/paaro/coreth-master/rpc"
+	"github.com/lasthyphen/coreth/core/types"
+	"github.com/lasthyphen/coreth/interfaces"
+	"github.com/lasthyphen/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

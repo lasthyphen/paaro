@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/lasthyphen/paaro/coreth-master/params"
+	"github.com/lasthyphen/coreth/params"
 
 	"github.com/lasthyphen/paaro/chains/atomic"
 	"github.com/lasthyphen/paaro/ids"

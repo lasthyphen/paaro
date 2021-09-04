@@ -34,9 +34,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/lasthyphen/paaro/coreth-master/core/rawdb"
-	"github.com/lasthyphen/paaro/coreth-master/core/state/snapshot"
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/coreth/core/rawdb"
+	"github.com/lasthyphen/coreth/core/state/snapshot"
+	"github.com/lasthyphen/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"

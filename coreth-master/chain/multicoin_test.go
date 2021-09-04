@@ -28,15 +28,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lasthyphen/paaro/coreth-master/accounts/keystore"
-	"github.com/lasthyphen/paaro/coreth-master/consensus/dummy"
-	"github.com/lasthyphen/paaro/coreth-master/core"
-	"github.com/lasthyphen/paaro/coreth-master/core/rawdb"
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
-	"github.com/lasthyphen/paaro/coreth-master/core/vm"
-	"github.com/lasthyphen/paaro/coreth-master/eth"
-	"github.com/lasthyphen/paaro/coreth-master/eth/ethconfig"
-	"github.com/lasthyphen/paaro/coreth-master/node"
+	"github.com/lasthyphen/coreth/accounts/keystore"
+	"github.com/lasthyphen/coreth/consensus/dummy"
+	"github.com/lasthyphen/coreth/core"
+	"github.com/lasthyphen/coreth/core/rawdb"
+	"github.com/lasthyphen/coreth/core/types"
+	"github.com/lasthyphen/coreth/core/vm"
+	"github.com/lasthyphen/coreth/eth"
+	"github.com/lasthyphen/coreth/eth/ethconfig"
+	"github.com/lasthyphen/coreth/node"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
@@ -72,7 +72,7 @@ func TestMulticoin(t *testing.T) {
 	//if gopath == "" {
 	//	gopath = build.Default.GOPATH
 	//}
-	//counterSrc, err := filepath.Abs(gopath + "/src/github.com/lasthyphen/paaro/coreth-master/examples/multicoin/mc_test.sol")
+	//counterSrc, err := filepath.Abs(gopath + "/src/github.com/lasthyphen/coreth/examples/multicoin/mc_test.sol")
 	//if err != nil {
 	// 	t.Fatal(err)
 	// }

@@ -29,7 +29,7 @@ package core
 import (
 	"sync"
 
-	"github.com/lasthyphen/paaro/coreth-master/core/state"
+	"github.com/lasthyphen/coreth/core/state"
 	"github.com/ethereum/go-ethereum/common"
 )
 

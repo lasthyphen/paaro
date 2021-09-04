@@ -40,13 +40,13 @@ import (
 
 	engCommon "github.com/lasthyphen/paaro/snow/engine/common"
 
-	"github.com/lasthyphen/paaro/coreth-master/core"
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
-	"github.com/lasthyphen/paaro/coreth-master/eth"
-	"github.com/lasthyphen/paaro/coreth-master/params"
-	"github.com/lasthyphen/paaro/coreth-master/rpc"
+	"github.com/lasthyphen/coreth/core"
+	"github.com/lasthyphen/coreth/core/types"
+	"github.com/lasthyphen/coreth/eth"
+	"github.com/lasthyphen/coreth/params"
+	"github.com/lasthyphen/coreth/rpc"
 
-	accountKeystore "github.com/lasthyphen/paaro/coreth-master/accounts/keystore"
+	accountKeystore "github.com/lasthyphen/coreth/accounts/keystore"
 )
 
 var (

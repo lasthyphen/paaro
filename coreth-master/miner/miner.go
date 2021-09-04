@@ -28,10 +28,10 @@
 package miner
 
 import (
-	"github.com/lasthyphen/paaro/coreth-master/consensus"
-	"github.com/lasthyphen/paaro/coreth-master/core"
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
-	"github.com/lasthyphen/paaro/coreth-master/params"
+	"github.com/lasthyphen/coreth/consensus"
+	"github.com/lasthyphen/coreth/core"
+	"github.com/lasthyphen/coreth/core/types"
+	"github.com/lasthyphen/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 )

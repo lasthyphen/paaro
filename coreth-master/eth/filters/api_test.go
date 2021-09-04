@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lasthyphen/paaro/coreth-master/rpc"
+	"github.com/lasthyphen/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math/big"
 
-	coreth "github.com/lasthyphen/paaro/coreth-master/chain"
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
-	"github.com/lasthyphen/paaro/coreth-master/params"
+	coreth "github.com/lasthyphen/coreth/chain"
+	"github.com/lasthyphen/coreth/core/types"
+	"github.com/lasthyphen/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/trie"
 )

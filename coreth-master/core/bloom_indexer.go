@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/lasthyphen/paaro/coreth-master/core/bloombits"
-	"github.com/lasthyphen/paaro/coreth-master/core/rawdb"
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
+	"github.com/lasthyphen/coreth/core/bloombits"
+	"github.com/lasthyphen/coreth/core/rawdb"
+	"github.com/lasthyphen/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/bitutil"
 	"github.com/ethereum/go-ethereum/ethdb"

@@ -30,11 +30,11 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/lasthyphen/paaro/coreth-master/consensus"
-	"github.com/lasthyphen/paaro/coreth-master/core/state"
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
-	"github.com/lasthyphen/paaro/coreth-master/core/vm"
-	"github.com/lasthyphen/paaro/coreth-master/params"
+	"github.com/lasthyphen/coreth/consensus"
+	"github.com/lasthyphen/coreth/core/state"
+	"github.com/lasthyphen/coreth/core/types"
+	"github.com/lasthyphen/coreth/core/vm"
+	"github.com/lasthyphen/coreth/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

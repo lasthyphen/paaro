@@ -32,7 +32,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/lasthyphen/paaro/coreth-master/core/rawdb"
+	"github.com/lasthyphen/coreth/core/rawdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
 )

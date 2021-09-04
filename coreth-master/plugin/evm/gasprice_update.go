@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lasthyphen/paaro/coreth-master/params"
+	"github.com/lasthyphen/coreth/params"
 )
 
 type gasPriceUpdater struct {

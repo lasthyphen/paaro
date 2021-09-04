@@ -31,7 +31,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/lasthyphen/paaro/coreth-master/params"
+	"github.com/lasthyphen/coreth/params"
 )
 
 // Forks table defines supported forks and their chain config.

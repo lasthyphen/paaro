@@ -29,7 +29,7 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/lasthyphen/paaro/coreth-master/core/vm/runtime"
+	"github.com/lasthyphen/coreth/core/vm/runtime"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -29,10 +29,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/lasthyphen/paaro/coreth-master/consensus"
-	"github.com/lasthyphen/paaro/coreth-master/core/state"
-	"github.com/lasthyphen/paaro/coreth-master/core/types"
-	"github.com/lasthyphen/paaro/coreth-master/params"
+	"github.com/lasthyphen/coreth/consensus"
+	"github.com/lasthyphen/coreth/core/state"
+	"github.com/lasthyphen/coreth/core/types"
+	"github.com/lasthyphen/coreth/params"
 	"github.com/ethereum/go-ethereum/trie"
 )
 

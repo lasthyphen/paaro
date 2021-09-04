@@ -27,7 +27,7 @@
 package node
 
 import (
-	"github.com/lasthyphen/paaro/coreth-master/rpc"
+	"github.com/lasthyphen/coreth/rpc"
 )
 
 const (
