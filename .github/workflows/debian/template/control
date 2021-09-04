@@ -1,0 +1,8 @@
+Package: paaro
+Version: 0.1.0
+Section: misc 
+Priority: optional
+Architecture: arm64 
+Depends:
+Maintainer: Fabio Barone <farthing@djtlabs.dijets.io>
+Description: The Dijets platform binaries 

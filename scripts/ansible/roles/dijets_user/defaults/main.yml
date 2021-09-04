@@ -1,0 +1,2 @@
+dijets_daemon_user: dijets
+dijets_daemon_group: "{{ dijets_daemon_user }}"

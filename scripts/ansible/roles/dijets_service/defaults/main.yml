@@ -1,0 +1,6 @@
+dijets_daemon_dynamic_public_ip: ifconfigme
+dijets_daemon_http_host: localhost
+# This variable is ignored, if dijets_daemon_dynamic_public_ip is not false
+dijets_daemon_public_ip: "{{ ansible_facts.default_ipv4.address }}"
+dijets_daemon_service_name: paaro
+log_level: info

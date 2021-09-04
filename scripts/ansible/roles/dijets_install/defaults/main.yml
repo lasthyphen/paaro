@@ -1,0 +1,25 @@
+# These names, & default values are based on Meson build builtin options;
+# which in turn follow established *nix conventions.
+# See
+#   https://mesonbuild.com/Builtin-options.html
+#   https://www.gnu.org/prep/standards/html_node/Directory-Variables.html
+prefix: "/usr/local"
+bindir: "{{ prefix }}/bin"
+libdir: "{{ prefix }}/lib"
+localstatedir: "{{ prefix | replace('/usr', '/var') }}"
+sharedstatedir: "{{ localstatedir }}/lib"
+# Has no Meson builtin equivalent
+logdir: "{{ localstatedir }}/log"
+
+dijets_binary: "{{ dijets_binaries_dir }}/paaro"
+
+# These names are specific to Dijets. Default values are based loosely on *nix
+# conventions.
+dijets_daemon_home_dir: "{{ sharedstatedir }}/paaro"
+dijets_daemon_db_dir: "{{ dijets_daemon_home_dir }}/db"
+dijets_daemon_log_dir: "{{ logdir }}/paaro"
+dijets_daemon_lib_dir: "{{ libdir }}/paaro"
+dijets_daemon_staking_dir: "{{ dijets_daemon_home_dir }}/staking"
+dijets_daemon_staking_tls_cert: "{{ dijets_daemon_staking_dir }}/staker.crt"
+dijets_daemon_staking_tls_csr: "{{ dijets_daemon_staking_dir }}/staker.csr"
+dijets_daemon_staking_tls_key: "{{ dijets_daemon_staking_dir }}/staker.key"

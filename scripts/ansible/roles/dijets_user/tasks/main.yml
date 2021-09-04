@@ -1,0 +1,14 @@
+- name: Create Dijets daemon group
+  become: true
+  group:
+    name: "{{ dijets_daemon_group }}"
+    system: true
+
+- name: Create Dijets daemon user
+  become: true
+  user:
+    name: "{{ dijets_daemon_user }}"
+    group: "{{ dijets_daemon_group }}"
+    home: "{{ dijets_daemon_home_dir }}"
+    shell: /bin/false
+    system: true

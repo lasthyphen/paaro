@@ -1,0 +1,2 @@
+log_level: info
+dijets_binary: ~/go/src/github.com/djt-labs/paaro/build/paaro

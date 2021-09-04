@@ -1,0 +1,10 @@
+#!/usr/bin/env ansible-playbook
+---
+- name: Configure Dijets service
+  hosts: dijets_nodes
+  roles:
+    - name: dijets_download
+    - name: dijets_user
+    - name: dijets_install
+    - name: dijets_staker
+    - name: dijets_service

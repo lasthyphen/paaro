@@ -1,0 +1,17 @@
+- name: Kill Node
+  command: killall -SIGTERM paaro
+  register: killall_paaro
+  changed_when:
+    - "killall_paaro.rc in [0]"
+  failed_when:
+    - "killall_paaro.rc not in [0]"
+    - "killall_paaro.stderr not in ['paaro: no process found']"
+
+- name: Kill EVM
+  command: killall -SIGTERM evm
+  register: killall_evm
+  changed_when:
+    - "killall_evm.rc in [0]"
+  failed_when:
+    - "killall_evm.rc not in [0]"
+    - "killall_evm.stderr not in ['evm: no process found']"

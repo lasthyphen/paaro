@@ -1,0 +1,46 @@
+package nftfx
+
+import (
+	"testing"
+
+	"github.com/djt-labs/paaro/ids"
+	"github.com/djt-labs/paaro/vms/components/verify"
+	"github.com/djt-labs/paaro/vms/secp256k1fx"
+)
+
+func TestTransferOutputVerifyNil(t *testing.T) {
+	to := (*TransferOutput)(nil)
+	if err := to.Verify(); err == nil {
+		t.Fatalf("TransferOutput.Verify should have errored on nil")
+	}
+}
+
+func TestTransferOutputLargePayload(t *testing.T) {
+	to := TransferOutput{
+		Payload: make([]byte, MaxPayloadSize+1),
+	}
+	if err := to.Verify(); err == nil {
+		t.Fatalf("TransferOutput.Verify should have errored on too large of a payload")
+	}
+}
+
+func TestTransferOutputInvalidSecp256k1Output(t *testing.T) {
+	to := TransferOutput{
+		OutputOwners: secp256k1fx.OutputOwners{
+			Addrs: []ids.ShortID{
+				ids.ShortEmpty,
+				ids.ShortEmpty,
+			},
+		},
+	}
+	if err := to.Verify(); err == nil {
+		t.Fatalf("TransferOutput.Verify should have errored on too large of a payload")
+	}
+}
+
+func TestTransferOutputState(t *testing.T) {
+	intf := interface{}(&TransferOutput{})
+	if _, ok := intf.(verify.State); !ok {
+		t.Fatalf("should be marked as state")
+	}
+}

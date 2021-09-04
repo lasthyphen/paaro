@@ -1,0 +1,21 @@
+- name: Configure Dijets service
+  become: true
+  template:
+    src: dijets.service
+    dest: "/etc/systemd/system/{{ dijets_daemon_service_name }}.service"
+    owner: root
+    group: root
+    mode: u=rw,go=r
+  notify:
+    - Reload systemd
+    - Restart Dijets service
+
+- name: Enable Dijets service
+  become: true
+  systemd:
+    name: "{{ dijets_daemon_service_name }}"
+    state: started
+    enabled: true
+    daemon_reload: true
+  notify:
+    - Restart Dijets service
