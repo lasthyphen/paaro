@@ -15,14 +15,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/network/message"
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/utils/hashing"
-	"github.com/djt-labs/paaro/utils/timer"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/network/message"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 // The signature of a peer's certificate on the byte representation

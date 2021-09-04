@@ -9,12 +9,12 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/snow/consensus/snowstorm"
-	"github.com/djt-labs/paaro/snow/engine/dijets/vertex"
-	"github.com/djt-labs/paaro/snow/engine/common/queue"
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/snow/consensus/snowstorm"
+	"github.com/lasthyphen/paaro/snow/engine/dijets/vertex"
+	"github.com/lasthyphen/paaro/snow/engine/common/queue"
+	"github.com/lasthyphen/paaro/utils/logging"
 )
 
 type txParser struct {

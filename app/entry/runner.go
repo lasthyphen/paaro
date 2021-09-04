@@ -11,12 +11,12 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/djt-labs/paaro/app/process"
-	"github.com/djt-labs/paaro/node"
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/perms"
+	"github.com/lasthyphen/paaro/app/process"
+	"github.com/lasthyphen/paaro/node"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/perms"
 
-	appPlugin "github.com/djt-labs/paaro/app/plugin"
+	appPlugin "github.com/lasthyphen/paaro/app/plugin"
 )
 
 // Run an Paaro node.

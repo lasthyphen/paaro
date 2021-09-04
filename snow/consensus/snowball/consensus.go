@@ -6,7 +6,7 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Consensus represents a general snow instance that can be used directly to

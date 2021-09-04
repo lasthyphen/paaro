@@ -10,13 +10,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/hashing"
-	"github.com/djt-labs/paaro/utils/perms"
-	"github.com/djt-labs/paaro/vms/dvm"
-	"github.com/djt-labs/paaro/vms/evm"
-	"github.com/djt-labs/paaro/vms/platformvm"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/utils/perms"
+	"github.com/lasthyphen/paaro/vms/dvm"
+	"github.com/lasthyphen/paaro/vms/evm"
+	"github.com/lasthyphen/paaro/vms/platformvm"
 )
 
 func TestAliases(t *testing.T) {

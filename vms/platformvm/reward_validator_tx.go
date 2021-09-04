@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/vms/components/djtx"
-	"github.com/djt-labs/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/vms/components/verify"
 
-	safemath "github.com/djt-labs/paaro/utils/math"
+	safemath "github.com/lasthyphen/paaro/utils/math"
 )
 
 var (

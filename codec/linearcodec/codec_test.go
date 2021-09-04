@@ -6,7 +6,7 @@ package linearcodec
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/codec"
+	"github.com/lasthyphen/paaro/codec"
 )
 
 func TestVectors(t *testing.T) {

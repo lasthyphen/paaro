@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/djt-labs/paaro/vms/types"
+	"github.com/lasthyphen/paaro/vms/types"
 
-	"github.com/djt-labs/paaro/utils/units"
-	"github.com/djt-labs/paaro/vms/components/verify"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/utils/units"
+	"github.com/lasthyphen/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 const (

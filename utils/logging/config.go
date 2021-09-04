@@ -9,8 +9,8 @@ import (
 
 	"github.com/mitchellh/go-homedir"
 
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/units"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/units"
 )
 
 // DefaultLogDirectory is the default directory where logs are saved

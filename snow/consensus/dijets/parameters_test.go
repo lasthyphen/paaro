@@ -6,7 +6,7 @@ package dijets
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/snow/consensus/snowball"
+	"github.com/lasthyphen/paaro/snow/consensus/snowball"
 )
 
 func TestParametersValid(t *testing.T) {

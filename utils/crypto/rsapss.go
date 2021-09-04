@@ -9,8 +9,8 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/hashing"
 )
 
 const rsaPSSSize = 3072

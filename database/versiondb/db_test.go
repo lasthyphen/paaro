@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/memdb"
 )
 
 func TestInterface(t *testing.T) {

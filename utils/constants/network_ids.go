@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Const variables to be exported

@@ -7,9 +7,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 func marshalID(idIntf interface{}) ([]byte, error) {

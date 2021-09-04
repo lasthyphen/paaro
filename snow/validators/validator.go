@@ -6,9 +6,9 @@ package validators
 import (
 	"math"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 
-	safemath "github.com/djt-labs/paaro/utils/math"
+	safemath "github.com/lasthyphen/paaro/utils/math"
 )
 
 // Validator is the minimal description of someone that can be sampled.

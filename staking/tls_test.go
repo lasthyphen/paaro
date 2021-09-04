@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/utils/hashing"
 	"github.com/stretchr/testify/assert"
 )
 

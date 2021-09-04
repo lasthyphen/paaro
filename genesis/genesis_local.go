@@ -6,7 +6,7 @@ package genesis
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/utils/units"
+	"github.com/lasthyphen/paaro/utils/units"
 )
 
 // PrivateKey-vmRQiZeXEXYMyJhEiqdC2z5JhuDbxL8ix9UVvjgMu2Er1NepE => P-local1g65uqn6t77p656w64023nh8nd9updzmxyymev2

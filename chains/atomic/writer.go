@@ -4,7 +4,7 @@
 package atomic
 
 import (
-	"github.com/djt-labs/paaro/database"
+	"github.com/lasthyphen/paaro/database"
 )
 
 // WriteAll assumes all batches have the same underlying database. Batches

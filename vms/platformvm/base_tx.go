@@ -3,9 +3,9 @@ package platformvm
 import (
 	"fmt"
 
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
 )
 
 // BaseTx contains fields common to many transaction types. It should be

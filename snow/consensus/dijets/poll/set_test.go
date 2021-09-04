@@ -11,9 +11,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 func TestNewSetErrorOnMetrics(t *testing.T) {

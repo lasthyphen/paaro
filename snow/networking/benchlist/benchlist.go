@@ -9,12 +9,12 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/validators"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/validators"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/timer"
 
-	safemath "github.com/djt-labs/paaro/utils/math"
+	safemath "github.com/lasthyphen/paaro/utils/math"
 )
 
 // If a peer consistently does not respond to queries, it will

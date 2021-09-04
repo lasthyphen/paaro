@@ -4,9 +4,9 @@
 package block
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/consensus/snowman"
-	"github.com/djt-labs/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/consensus/snowman"
+	"github.com/lasthyphen/paaro/snow/engine/common"
 )
 
 // ChainVM defines the required functionality of a Snowman VM.

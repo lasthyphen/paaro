@@ -4,7 +4,7 @@
 package validators
 
 import (
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Connector represents a handler that is called when a connection is marked as

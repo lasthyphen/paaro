@@ -7,9 +7,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/units"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/units"
 	"github.com/stretchr/testify/assert"
 )
 

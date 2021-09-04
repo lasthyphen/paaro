@@ -19,17 +19,17 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/network/throttling"
-	"github.com/djt-labs/paaro/snow/networking/benchlist"
-	"github.com/djt-labs/paaro/snow/networking/router"
-	"github.com/djt-labs/paaro/snow/validators"
-	"github.com/djt-labs/paaro/staking"
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/hashing"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/version"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/network/throttling"
+	"github.com/lasthyphen/paaro/snow/networking/benchlist"
+	"github.com/lasthyphen/paaro/snow/networking/router"
+	"github.com/lasthyphen/paaro/snow/validators"
+	"github.com/lasthyphen/paaro/staking"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/version"
 )
 
 const (

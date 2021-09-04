@@ -10,8 +10,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/wrappers"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/gconn/gconnproto"
+	"github.com/lasthyphen/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/gconn/gconnproto"
 )
 
 var _ net.Conn = &Client{}

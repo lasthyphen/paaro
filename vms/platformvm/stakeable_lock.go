@@ -3,7 +3,7 @@ package platformvm
 import (
 	"errors"
 
-	"github.com/djt-labs/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
 )
 
 var errInvalidLocktime = errors.New("invalid locktime")

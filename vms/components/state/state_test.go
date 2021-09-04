@@ -6,10 +6,10 @@ package state
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/database/memdb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/hashing"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 // toy example of a block, just used for testing

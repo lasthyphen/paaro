@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/validators"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/validators"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 var minimumFailingDuration = 5 * time.Minute

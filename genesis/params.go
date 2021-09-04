@@ -6,7 +6,7 @@ package genesis
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/constants"
 )
 
 type StakingConfig struct {

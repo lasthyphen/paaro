@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/logging"
 )
 
 var errOpenDNSNoIP = errors.New("opendns returned no ip")

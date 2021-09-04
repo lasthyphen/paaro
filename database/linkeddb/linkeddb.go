@@ -6,8 +6,8 @@ package linkeddb
 import (
 	"sync"
 
-	"github.com/djt-labs/paaro/cache"
-	"github.com/djt-labs/paaro/database"
+	"github.com/lasthyphen/paaro/cache"
+	"github.com/lasthyphen/paaro/database"
 )
 
 const (

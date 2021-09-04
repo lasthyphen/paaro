@@ -9,11 +9,11 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/djt-labs/paaro/config"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/subprocess"
+	"github.com/lasthyphen/paaro/config"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/subprocess"
 
-	appplugin "github.com/djt-labs/paaro/app/plugin"
+	appplugin "github.com/lasthyphen/paaro/app/plugin"
 )
 
 // nodeProcess wraps a node client

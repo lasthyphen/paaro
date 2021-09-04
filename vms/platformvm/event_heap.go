@@ -8,7 +8,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 type TimedTx interface {

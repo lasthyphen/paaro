@@ -6,7 +6,7 @@ package sender
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // ExternalSender sends consensus messages to other validators

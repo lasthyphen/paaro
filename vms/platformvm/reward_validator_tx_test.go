@@ -9,16 +9,16 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/chains"
-	"github.com/djt-labs/paaro/database/manager"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/snow/validators"
-	"github.com/djt-labs/paaro/utils/crypto"
-	"github.com/djt-labs/paaro/utils/math"
-	"github.com/djt-labs/paaro/version"
-	"github.com/djt-labs/paaro/vms/platformvm/uptime"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/chains"
+	"github.com/lasthyphen/paaro/database/manager"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/snow/validators"
+	"github.com/lasthyphen/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/utils/math"
+	"github.com/lasthyphen/paaro/version"
+	"github.com/lasthyphen/paaro/vms/platformvm/uptime"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 func TestUnsignedRewardValidatorTxSemanticVerifyOnCommit(t *testing.T) {

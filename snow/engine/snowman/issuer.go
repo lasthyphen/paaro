@@ -4,8 +4,8 @@
 package snowman
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/consensus/snowman"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/consensus/snowman"
 )
 
 // issuer issues [blk] into to consensus after its dependencies are met.

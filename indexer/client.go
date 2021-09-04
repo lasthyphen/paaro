@@ -3,7 +3,7 @@ package indexer
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/utils/rpc"
+	"github.com/lasthyphen/paaro/utils/rpc"
 )
 
 type Client struct {

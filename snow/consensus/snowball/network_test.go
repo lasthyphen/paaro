@@ -6,8 +6,8 @@ package snowball
 import (
 	"math/rand"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/sampler"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/sampler"
 )
 
 type Network struct {

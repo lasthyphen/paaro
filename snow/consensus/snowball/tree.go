@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 var (

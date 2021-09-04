@@ -4,8 +4,8 @@
 package chains
 
 import (
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/engine/common"
 )
 
 // Registrant can register the existence of a chain

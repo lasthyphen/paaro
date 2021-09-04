@@ -8,12 +8,12 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/crypto"
-	"github.com/djt-labs/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/vms/components/verify"
 )
 
 var (

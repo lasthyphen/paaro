@@ -4,9 +4,9 @@
 package dijets
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/consensus/dijets"
-	"github.com/djt-labs/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/consensus/dijets"
+	"github.com/lasthyphen/paaro/snow/engine/common"
 )
 
 // Engine describes the events that can occur on a consensus instance

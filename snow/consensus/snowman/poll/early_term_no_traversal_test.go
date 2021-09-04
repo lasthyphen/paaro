@@ -6,7 +6,7 @@ package poll
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 func TestEarlyTermNoTraversalResults(t *testing.T) {

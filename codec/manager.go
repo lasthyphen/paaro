@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/djt-labs/paaro/utils/units"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/utils/units"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 const (

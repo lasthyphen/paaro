@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/snow/consensus/snowman"
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/snow/consensus/snowman"
+	"github.com/lasthyphen/paaro/utils/hashing"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/assert"
 )

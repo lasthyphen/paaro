@@ -7,13 +7,13 @@ import (
 	"math"
 	"testing"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/utils/crypto"
-	"github.com/djt-labs/paaro/utils/units"
-	"github.com/djt-labs/paaro/vms/components/djtx"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/utils/units"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 func TestSetsAndGets(t *testing.T) {

@@ -3,15 +3,15 @@ package indexer
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/codec/linearcodec"
-	"github.com/djt-labs/paaro/database/memdb"
-	"github.com/djt-labs/paaro/database/versiondb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/codec/linearcodec"
+	"github.com/lasthyphen/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/database/versiondb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/timer"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -11,7 +11,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/djt-labs/paaro/utils"
+	"github.com/lasthyphen/paaro/utils"
 )
 
 // gzipCompressor implements Compressor

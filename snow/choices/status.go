@@ -6,7 +6,7 @@ package choices
 import (
 	"errors"
 
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 var errUnknownStatus = errors.New("unknown status")

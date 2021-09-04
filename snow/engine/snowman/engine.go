@@ -4,8 +4,8 @@
 package snowman
 
 import (
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/snow/engine/snowman/block"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/snow/engine/snowman/block"
 )
 
 // Engine describes the events that can occur to a Snowman instance.

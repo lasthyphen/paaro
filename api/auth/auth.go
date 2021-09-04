@@ -15,11 +15,11 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/password"
-	"github.com/djt-labs/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/password"
+	"github.com/lasthyphen/paaro/utils/timer"
 
-	cjson "github.com/djt-labs/paaro/utils/json"
+	cjson "github.com/lasthyphen/paaro/utils/json"
 )
 
 const (

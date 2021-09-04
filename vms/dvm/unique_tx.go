@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/djt-labs/paaro/cache"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/snow/consensus/snowstorm"
-	"github.com/djt-labs/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/cache"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/snow/consensus/snowstorm"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
 )
 
 var (

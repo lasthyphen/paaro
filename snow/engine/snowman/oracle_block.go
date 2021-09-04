@@ -4,7 +4,7 @@
 package snowman
 
 import (
-	"github.com/djt-labs/paaro/snow/consensus/snowman"
+	"github.com/lasthyphen/paaro/snow/consensus/snowman"
 )
 
 // OracleBlock is a block that only has two valid children. The children should

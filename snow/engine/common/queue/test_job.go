@@ -7,7 +7,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // TestJob is a test Job

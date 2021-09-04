@@ -4,8 +4,8 @@
 package message
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils"
 )
 
 var _ Builder = &builder{}

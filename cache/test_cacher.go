@@ -6,7 +6,7 @@ package cache
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // CacherTests is a list of all Cacher tests

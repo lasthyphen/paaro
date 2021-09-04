@@ -4,9 +4,9 @@
 package pubsub
 
 import (
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/utils/json"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/json"
 )
 
 // NewBloom command for a new bloom filter

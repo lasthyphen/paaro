@@ -6,7 +6,7 @@ package sampler
 import (
 	"sort"
 
-	safemath "github.com/djt-labs/paaro/utils/math"
+	safemath "github.com/lasthyphen/paaro/utils/math"
 )
 
 type weightedHeapElement struct {

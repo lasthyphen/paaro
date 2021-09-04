@@ -7,10 +7,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/djt-labs/paaro/chains/atomic"
-	"github.com/djt-labs/paaro/chains/atomic/gsharedmemory/gsharedmemoryproto"
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/chains/atomic"
+	"github.com/lasthyphen/paaro/chains/atomic/gsharedmemory/gsharedmemoryproto"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 var _ gsharedmemoryproto.SharedMemoryServer = &Server{}

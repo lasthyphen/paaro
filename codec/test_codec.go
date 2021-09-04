@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 var Tests = []func(c GeneralCodec, t testing.TB){

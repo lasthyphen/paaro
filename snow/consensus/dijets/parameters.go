@@ -6,7 +6,7 @@ package dijets
 import (
 	"fmt"
 
-	"github.com/djt-labs/paaro/snow/consensus/snowball"
+	"github.com/lasthyphen/paaro/snow/consensus/snowball"
 )
 
 // Parameters the dijets parameters include the snowball parameters and the

@@ -4,9 +4,9 @@
 package api
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/utils/json"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/json"
 )
 
 // This file contains structs used in arguments and responses in services

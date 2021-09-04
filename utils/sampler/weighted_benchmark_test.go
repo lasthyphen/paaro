@@ -9,7 +9,7 @@ import (
 	"math"
 	"testing"
 
-	safemath "github.com/djt-labs/paaro/utils/math"
+	safemath "github.com/lasthyphen/paaro/utils/math"
 )
 
 // BenchmarkAllWeightedSampling

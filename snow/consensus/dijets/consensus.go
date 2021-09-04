@@ -4,9 +4,9 @@
 package dijets
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/consensus/snowstorm"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/consensus/snowstorm"
 )
 
 // TODO: Implement pruning of accepted decisions.

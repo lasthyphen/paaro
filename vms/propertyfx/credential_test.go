@@ -3,7 +3,7 @@ package propertyfx
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/vms/components/verify"
 )
 
 func TestCredentialState(t *testing.T) {

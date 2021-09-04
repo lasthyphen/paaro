@@ -7,7 +7,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/greadcloser/greadcloserproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/greadcloser/greadcloserproto"
 )
 
 var _ greadcloserproto.ReaderServer = &Server{}

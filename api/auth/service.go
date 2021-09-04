@@ -3,7 +3,7 @@ package auth
 import (
 	"net/http"
 
-	"github.com/djt-labs/paaro/api"
+	"github.com/lasthyphen/paaro/api"
 )
 
 // service that serves the Auth API functionality.

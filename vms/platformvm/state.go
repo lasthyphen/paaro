@@ -7,10 +7,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
 
-	safemath "github.com/djt-labs/paaro/utils/math"
+	safemath "github.com/lasthyphen/paaro/utils/math"
 )
 
 // getPaginatedUTXOs returns UTXOs such that at least one of the addresses in

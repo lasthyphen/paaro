@@ -9,8 +9,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 var _ pendingStakerChainState = &pendingStakerChainStateImpl{}

@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/consensus/snowman"
-	"github.com/djt-labs/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/consensus/snowman"
+	"github.com/lasthyphen/paaro/utils/crypto"
 )
 
 func TestAddDelegatorTxSyntacticVerify(t *testing.T) {

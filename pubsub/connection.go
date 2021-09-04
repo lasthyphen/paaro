@@ -12,7 +12,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/djt-labs/paaro/utils/bloom"
+	"github.com/lasthyphen/paaro/utils/bloom"
 )
 
 var (

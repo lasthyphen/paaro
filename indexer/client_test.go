@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/formatting"
 	"github.com/stretchr/testify/assert"
 )
 

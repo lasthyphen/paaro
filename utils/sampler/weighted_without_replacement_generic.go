@@ -4,7 +4,7 @@
 package sampler
 
 import (
-	safemath "github.com/djt-labs/paaro/utils/math"
+	safemath "github.com/lasthyphen/paaro/utils/math"
 )
 
 type weightedWithoutReplacementGeneric struct {

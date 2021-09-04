@@ -12,12 +12,12 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/djt-labs/paaro/utils/wrappers"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/ghttpproto"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/greadcloser"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/greadcloser/greadcloserproto"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/gresponsewriter"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/gresponsewriter/gresponsewriterproto"
+	"github.com/lasthyphen/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/ghttpproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/greadcloser"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/greadcloser/greadcloserproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/gresponsewriter"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/gresponsewriter/gresponsewriterproto"
 )
 
 var _ ghttpproto.HTTPServer = &Server{}

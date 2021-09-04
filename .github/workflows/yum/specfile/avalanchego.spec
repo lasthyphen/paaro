@@ -4,7 +4,7 @@ Name:           paaro
 Version:        %{version}
 Release:        %{release}
 Summary:        The Dijets platform binaries
-URL:            https://github.com/djt-labs/%{name}
+URL:            https://github.com/lasthyphen/%{name}
 License:        BSD-3
 AutoReqProv:    no
 

@@ -4,10 +4,10 @@
 package dijets
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/consensus/dijets"
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/consensus/dijets"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 // convincer sends chits to [vdr] after its dependencies are met.

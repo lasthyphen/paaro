@@ -4,10 +4,10 @@
 package vertex
 
 import (
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/codec/linearcodec"
-	"github.com/djt-labs/paaro/utils/units"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/codec/linearcodec"
+	"github.com/lasthyphen/paaro/utils/units"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 const (

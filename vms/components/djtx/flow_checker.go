@@ -6,9 +6,9 @@ package djtx
 import (
 	"errors"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/math"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/math"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 var errInsufficientFunds = errors.New("insufficient funds")

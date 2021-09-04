@@ -14,22 +14,22 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/api/keystore"
-	"github.com/djt-labs/paaro/chains/atomic"
-	"github.com/djt-labs/paaro/database/manager"
-	"github.com/djt-labs/paaro/database/prefixdb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/crypto"
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/version"
-	"github.com/djt-labs/paaro/vms/dvm"
-	"github.com/djt-labs/paaro/vms/components/djtx"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/api/keystore"
+	"github.com/lasthyphen/paaro/chains/atomic"
+	"github.com/lasthyphen/paaro/database/manager"
+	"github.com/lasthyphen/paaro/database/prefixdb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/version"
+	"github.com/lasthyphen/paaro/vms/dvm"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 
-	cjson "github.com/djt-labs/paaro/utils/json"
+	cjson "github.com/lasthyphen/paaro/utils/json"
 )
 
 var (

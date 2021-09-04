@@ -4,8 +4,8 @@
 package dijets
 
 import (
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/snow/consensus/snowstorm"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/snow/consensus/snowstorm"
 )
 
 // Vertex is a collection of multiple transactions tied to other vertices

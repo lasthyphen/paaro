@@ -4,9 +4,9 @@
 package vertex
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/consensus/snowstorm"
-	"github.com/djt-labs/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/consensus/snowstorm"
+	"github.com/lasthyphen/paaro/snow/engine/common"
 )
 
 // DAGVM defines the minimum functionality that an dijets VM must

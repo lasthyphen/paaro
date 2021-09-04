@@ -11,7 +11,7 @@ set -o pipefail
 SRC_DIR="$(dirname "${BASH_SOURCE[0]}")"
 
 DOCKERHUB_REPO="djtplatform/paaro"
-REMOTE="https://github.com/djt-labs/paaro.git"
+REMOTE="https://github.com/lasthyphen/paaro.git"
 BRANCH="master"
 
 if [[ $# -eq 2 ]]; then
@@ -25,7 +25,7 @@ fi
 echo "Building docker image from branch: $BRANCH at remote: $REMOTE"
 
 export GOPATH="$SRC_DIR/.build_image_gopath"
-WORKPREFIX="$GOPATH/src/github.com/djt-labs"
+WORKPREFIX="$GOPATH/src/github.com/lasthyphen"
 DOCKER="${DOCKER:-docker}"
 keep_existing=0
 while getopts 'k' opt

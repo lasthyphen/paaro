@@ -9,9 +9,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/snow/consensus/snowman"
-	"github.com/djt-labs/paaro/utils/metric"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/snow/consensus/snowman"
+	"github.com/lasthyphen/paaro/utils/metric"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 var errUnknownBlockType = errors.New("unknown block type")

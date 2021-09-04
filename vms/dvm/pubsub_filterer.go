@@ -1,9 +1,9 @@
 package dvm
 
 import (
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/pubsub"
-	"github.com/djt-labs/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/pubsub"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
 )
 
 var _ pubsub.Filterer = &filterer{}

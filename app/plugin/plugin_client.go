@@ -6,7 +6,7 @@ package plugin
 import (
 	"context"
 
-	appproto "github.com/djt-labs/paaro/app/plugin/proto"
+	appproto "github.com/lasthyphen/paaro/app/plugin/proto"
 )
 
 type Client struct {

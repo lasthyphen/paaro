@@ -6,8 +6,8 @@ package messenger
 import (
 	"context"
 
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/messenger/messengerproto"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/messenger/messengerproto"
 )
 
 // Client is an implementation of a messenger channel that talks over RPC.

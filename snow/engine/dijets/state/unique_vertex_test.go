@@ -8,13 +8,13 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/djt-labs/paaro/database/memdb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/snow/consensus/snowstorm"
-	"github.com/djt-labs/paaro/snow/engine/dijets/vertex"
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/snow/consensus/snowstorm"
+	"github.com/lasthyphen/paaro/snow/engine/dijets/vertex"
+	"github.com/lasthyphen/paaro/utils/hashing"
 )
 
 func newSerializer(t *testing.T, parse func([]byte) (snowstorm.Tx, error)) *Serializer {

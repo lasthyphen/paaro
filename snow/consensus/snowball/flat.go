@@ -4,7 +4,7 @@
 package snowball
 
 import (
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // FlatFactory implements Factory by returning a flat struct

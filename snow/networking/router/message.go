@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/utils/constants"
 )
 
 type message struct {

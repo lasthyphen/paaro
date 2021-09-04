@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/constants"
 )
 
 var (

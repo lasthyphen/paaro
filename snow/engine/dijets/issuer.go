@@ -4,9 +4,9 @@
 package dijets
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/consensus/dijets"
-	"github.com/djt-labs/paaro/snow/consensus/snowstorm"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/consensus/dijets"
+	"github.com/lasthyphen/paaro/snow/consensus/snowstorm"
 )
 
 // issuer issues [vtx] into consensus after its dependencies are met.

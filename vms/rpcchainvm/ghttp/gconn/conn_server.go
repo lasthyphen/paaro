@@ -8,8 +8,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/gconn/gconnproto"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/grpcutils"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/gconn/gconnproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/grpcutils"
 )
 
 var _ gconnproto.ConnServer = &Server{}

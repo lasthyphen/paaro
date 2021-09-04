@@ -3,7 +3,7 @@
 
 package djtx
 
-import "github.com/djt-labs/paaro/snow"
+import "github.com/lasthyphen/paaro/snow"
 
 type TestVerifiable struct{ Err error }
 

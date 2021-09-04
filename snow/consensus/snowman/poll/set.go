@@ -8,13 +8,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/linkedhashmap"
+	"github.com/lasthyphen/paaro/utils/linkedhashmap"
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/metric"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/metric"
 )
 
 type pollHolder interface {

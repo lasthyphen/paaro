@@ -6,7 +6,7 @@ package router
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/snow/engine/common"
 )
 
 var _ common.Timer = &Timer{}

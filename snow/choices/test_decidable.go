@@ -6,7 +6,7 @@ package choices
 import (
 	"fmt"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // TestDecidable is a test Decidable

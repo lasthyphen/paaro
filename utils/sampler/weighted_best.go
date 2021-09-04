@@ -8,9 +8,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/utils/timer"
 
-	safemath "github.com/djt-labs/paaro/utils/math"
+	safemath "github.com/lasthyphen/paaro/utils/math"
 )
 
 var errNoValidWeightedSamplers = errors.New("no valid weighted samplers found")

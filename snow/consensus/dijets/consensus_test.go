@@ -11,12 +11,12 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/snow/consensus/snowball"
-	"github.com/djt-labs/paaro/snow/consensus/snowstorm"
-	"github.com/djt-labs/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/snow/consensus/snowball"
+	"github.com/lasthyphen/paaro/snow/consensus/snowstorm"
+	"github.com/lasthyphen/paaro/utils/constants"
 )
 
 var Tests = []func(*testing.T, Factory){

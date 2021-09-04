@@ -14,14 +14,14 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/djt-labs/paaro/chains/atomic"
-	"github.com/djt-labs/paaro/chains/atomic/gsharedmemory/gsharedmemoryproto"
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/memdb"
-	"github.com/djt-labs/paaro/database/prefixdb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/units"
+	"github.com/lasthyphen/paaro/chains/atomic"
+	"github.com/lasthyphen/paaro/chains/atomic/gsharedmemory/gsharedmemoryproto"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/database/prefixdb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/units"
 )
 
 const (

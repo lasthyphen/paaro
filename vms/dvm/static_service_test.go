@@ -6,9 +6,9 @@ package dvm
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/utils/json"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/json"
 )
 
 var addrStrArray = []string{

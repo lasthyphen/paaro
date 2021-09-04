@@ -4,7 +4,7 @@
 package gsharedmemory
 
 import (
-	"github.com/djt-labs/paaro/chains/atomic/gsharedmemory/gsharedmemoryproto"
+	"github.com/lasthyphen/paaro/chains/atomic/gsharedmemory/gsharedmemoryproto"
 )
 
 type filteredBatch struct {

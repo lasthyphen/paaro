@@ -11,13 +11,13 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/gconn"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/gconn/gconnproto"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/greader"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/greader/greaderproto"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/gresponsewriter/gresponsewriterproto"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/gwriter"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/gconn"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/gconn/gconnproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/greader"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/greader/greaderproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/gresponsewriter/gresponsewriterproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/gwriter"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
 )
 
 var (

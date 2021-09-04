@@ -10,19 +10,19 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/codec/linearcodec"
-	"github.com/djt-labs/paaro/codec/reflectcodec"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/utils/wrappers"
-	"github.com/djt-labs/paaro/vms/components/djtx"
-	"github.com/djt-labs/paaro/vms/components/verify"
-	"github.com/djt-labs/paaro/vms/nftfx"
-	"github.com/djt-labs/paaro/vms/propertyfx"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/codec/linearcodec"
+	"github.com/lasthyphen/paaro/codec/reflectcodec"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/vms/nftfx"
+	"github.com/lasthyphen/paaro/vms/propertyfx"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 
-	cjson "github.com/djt-labs/paaro/utils/json"
+	cjson "github.com/lasthyphen/paaro/utils/json"
 )
 
 var (

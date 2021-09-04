@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/timer"
 )
 
 var (

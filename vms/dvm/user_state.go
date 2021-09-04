@@ -6,10 +6,10 @@ package dvm
 import (
 	"fmt"
 
-	"github.com/djt-labs/paaro/database/encdb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/crypto"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/database/encdb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 var addresses = ids.Empty

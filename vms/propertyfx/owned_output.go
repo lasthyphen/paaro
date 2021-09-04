@@ -1,7 +1,7 @@
 package propertyfx
 
 import (
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 type OwnedOutput struct {

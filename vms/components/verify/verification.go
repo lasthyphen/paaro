@@ -3,7 +3,7 @@
 
 package verify
 
-import "github.com/djt-labs/paaro/snow"
+import "github.com/lasthyphen/paaro/snow"
 
 // Verifiable can be verified
 type Verifiable interface {

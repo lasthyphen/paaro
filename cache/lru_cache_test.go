@@ -6,7 +6,7 @@ package cache
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 func TestLRU(t *testing.T) {

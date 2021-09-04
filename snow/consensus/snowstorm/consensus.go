@@ -6,10 +6,10 @@ package snowstorm
 import (
 	"fmt"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
 
-	sbcon "github.com/djt-labs/paaro/snow/consensus/snowball"
+	sbcon "github.com/lasthyphen/paaro/snow/consensus/snowball"
 )
 
 // Consensus is a snowball instance deciding between an unbounded number of

@@ -10,20 +10,20 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/cache"
-	"github.com/djt-labs/paaro/cache/metercacher"
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/linkeddb"
-	"github.com/djt-labs/paaro/database/prefixdb"
-	"github.com/djt-labs/paaro/database/versiondb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/utils/hashing"
-	"github.com/djt-labs/paaro/utils/wrappers"
-	"github.com/djt-labs/paaro/vms/components/djtx"
-	"github.com/djt-labs/paaro/vms/platformvm/uptime"
+	"github.com/lasthyphen/paaro/cache"
+	"github.com/lasthyphen/paaro/cache/metercacher"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/linkeddb"
+	"github.com/lasthyphen/paaro/database/prefixdb"
+	"github.com/lasthyphen/paaro/database/versiondb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/vms/platformvm/uptime"
 
-	safemath "github.com/djt-labs/paaro/utils/math"
+	safemath "github.com/lasthyphen/paaro/utils/math"
 )
 
 var (

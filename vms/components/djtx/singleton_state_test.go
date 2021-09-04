@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/database/memdb"
 )
 
 func TestSingletonState(t *testing.T) {

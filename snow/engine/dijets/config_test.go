@@ -6,13 +6,13 @@ package dijets
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/database/memdb"
-	"github.com/djt-labs/paaro/snow/consensus/dijets"
-	"github.com/djt-labs/paaro/snow/consensus/snowball"
-	"github.com/djt-labs/paaro/snow/engine/dijets/bootstrap"
-	"github.com/djt-labs/paaro/snow/engine/dijets/vertex"
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/snow/engine/common/queue"
+	"github.com/lasthyphen/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/snow/consensus/dijets"
+	"github.com/lasthyphen/paaro/snow/consensus/snowball"
+	"github.com/lasthyphen/paaro/snow/engine/dijets/bootstrap"
+	"github.com/lasthyphen/paaro/snow/engine/dijets/vertex"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/snow/engine/common/queue"
 )
 
 func DefaultConfig() Config {

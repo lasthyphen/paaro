@@ -4,8 +4,8 @@
 package platformvm
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/validators"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/validators"
 )
 
 // A Subnet is a set of validators that are validating a set of blockchains

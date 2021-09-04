@@ -4,8 +4,8 @@
 package triggers
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
 )
 
 // Acceptor is implemented when a struct is monitoring if a message is accepted

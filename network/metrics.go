@@ -8,9 +8,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/network/message"
-	"github.com/djt-labs/paaro/utils/metric"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/network/message"
+	"github.com/lasthyphen/paaro/utils/metric"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 type messageMetrics struct {

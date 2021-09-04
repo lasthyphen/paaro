@@ -6,7 +6,7 @@ package health
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/utils/rpc"
+	"github.com/lasthyphen/paaro/utils/rpc"
 )
 
 // Client for Dijets Health API Endpoint

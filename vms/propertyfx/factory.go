@@ -1,8 +1,8 @@
 package propertyfx
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
 )
 
 // ID that this Fx uses when labeled

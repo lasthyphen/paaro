@@ -6,7 +6,7 @@ package secp256k1fx
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/vms/components/verify"
 )
 
 func TestMintOutputVerifyNil(t *testing.T) {

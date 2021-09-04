@@ -4,14 +4,14 @@
 package genesis
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/vms/dvm"
-	"github.com/djt-labs/paaro/vms/evm"
-	"github.com/djt-labs/paaro/vms/nftfx"
-	"github.com/djt-labs/paaro/vms/platformvm"
-	"github.com/djt-labs/paaro/vms/propertyfx"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/vms/dvm"
+	"github.com/lasthyphen/paaro/vms/evm"
+	"github.com/lasthyphen/paaro/vms/nftfx"
+	"github.com/lasthyphen/paaro/vms/platformvm"
+	"github.com/lasthyphen/paaro/vms/propertyfx"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 // Aliases returns the default aliases based on the network ID

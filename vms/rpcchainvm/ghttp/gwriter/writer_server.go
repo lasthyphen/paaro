@@ -7,7 +7,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
 )
 
 var _ gwriterproto.WriterServer = &Server{}

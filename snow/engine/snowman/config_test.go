@@ -6,13 +6,13 @@ package snowman
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/database/memdb"
-	"github.com/djt-labs/paaro/snow/consensus/snowball"
-	"github.com/djt-labs/paaro/snow/consensus/snowman"
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/snow/engine/common/queue"
-	"github.com/djt-labs/paaro/snow/engine/snowman/block"
-	"github.com/djt-labs/paaro/snow/engine/snowman/bootstrap"
+	"github.com/lasthyphen/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/snow/consensus/snowball"
+	"github.com/lasthyphen/paaro/snow/consensus/snowman"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/snow/engine/common/queue"
+	"github.com/lasthyphen/paaro/snow/engine/snowman/block"
+	"github.com/lasthyphen/paaro/snow/engine/snowman/bootstrap"
 )
 
 func DefaultConfig() Config {

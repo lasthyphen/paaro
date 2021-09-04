@@ -6,8 +6,8 @@ package manager
 import (
 	"sort"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/version"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/version"
 )
 
 type VersionedDatabase struct {

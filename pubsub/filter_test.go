@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/bloom"
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/bloom"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/formatting"
 )
 
 func TestAddAddressesParseAddresses(t *testing.T) {

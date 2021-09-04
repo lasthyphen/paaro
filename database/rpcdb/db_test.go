@@ -13,9 +13,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/memdb"
-	"github.com/djt-labs/paaro/database/rpcdb/rpcdbproto"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/database/rpcdb/rpcdbproto"
 )
 
 const (

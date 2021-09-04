@@ -6,7 +6,7 @@ package validators
 import (
 	"sync"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Manager holds the validator set of each subnet

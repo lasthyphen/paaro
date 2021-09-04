@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/utils/rpc"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/utils/rpc"
 )
 
 // SuccessResponseTest defines the expected result of an API call that returns SuccessResponse

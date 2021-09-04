@@ -6,8 +6,8 @@ package crypto
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/hashing"
 )
 
 // NumVerifies is the number of verifications to run per operation

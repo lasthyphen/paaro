@@ -4,9 +4,9 @@
 package snowman
 
 import (
-	"github.com/djt-labs/paaro/snow/consensus/snowball"
-	"github.com/djt-labs/paaro/snow/consensus/snowman"
-	"github.com/djt-labs/paaro/snow/engine/snowman/bootstrap"
+	"github.com/lasthyphen/paaro/snow/consensus/snowball"
+	"github.com/lasthyphen/paaro/snow/consensus/snowman"
+	"github.com/lasthyphen/paaro/snow/engine/snowman/bootstrap"
 )
 
 // Config wraps all the parameters needed for a snowman engine

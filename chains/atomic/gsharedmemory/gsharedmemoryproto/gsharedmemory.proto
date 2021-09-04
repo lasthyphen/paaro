@@ -1,6 +1,6 @@
 syntax = "proto3";
 package gsharedmemoryproto;
-option go_package = "github.com/djt-labs/paaro/chains/atomic/gsharedmemory/gsharedmemoryproto";
+option go_package = "github.com/lasthyphen/paaro/chains/atomic/gsharedmemory/gsharedmemoryproto";
 
 message BatchPut {
     bytes key = 1;

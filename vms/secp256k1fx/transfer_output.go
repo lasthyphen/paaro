@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/djt-labs/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/vms/components/verify"
 )
 
 var (

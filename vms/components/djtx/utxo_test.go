@@ -7,12 +7,12 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/codec/linearcodec"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/utils/wrappers"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/codec/linearcodec"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 func TestUTXOVerifyNil(t *testing.T) {

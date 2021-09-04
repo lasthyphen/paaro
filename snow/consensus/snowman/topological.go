@@ -6,11 +6,11 @@ package snowman
 import (
 	"errors"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/snow/consensus/metrics"
-	"github.com/djt-labs/paaro/snow/consensus/snowball"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/snow/consensus/metrics"
+	"github.com/lasthyphen/paaro/snow/consensus/snowball"
 )
 
 var errUnhealthy = errors.New("snowman consensus is not healthy")

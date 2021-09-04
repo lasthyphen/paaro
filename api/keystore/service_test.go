@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/formatting"
 )
 
 // strongPassword defines a password used for the following tests that

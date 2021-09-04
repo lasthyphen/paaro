@@ -7,7 +7,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/djt-labs/paaro/snow/consensus/dijets"
+	"github.com/lasthyphen/paaro/snow/consensus/dijets"
 )
 
 var (

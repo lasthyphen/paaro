@@ -10,15 +10,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/snow/consensus/metrics"
-	"github.com/djt-labs/paaro/snow/events"
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/snow/consensus/metrics"
+	"github.com/lasthyphen/paaro/snow/events"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 
-	sbcon "github.com/djt-labs/paaro/snow/consensus/snowball"
+	sbcon "github.com/lasthyphen/paaro/snow/consensus/snowball"
 )
 
 var errUnhealthy = errors.New("snowstorm consensus is not healthy")

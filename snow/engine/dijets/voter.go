@@ -4,9 +4,9 @@
 package dijets
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/consensus/snowstorm"
-	"github.com/djt-labs/paaro/snow/engine/dijets/vertex"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/consensus/snowstorm"
+	"github.com/lasthyphen/paaro/snow/engine/dijets/vertex"
 )
 
 // Voter records chits received from [vdr] once its dependencies are met.

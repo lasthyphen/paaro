@@ -14,9 +14,9 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/logging"
 )
 
 const (

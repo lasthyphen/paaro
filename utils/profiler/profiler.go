@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"github.com/djt-labs/paaro/utils/perms"
+	"github.com/lasthyphen/paaro/utils/perms"
 )
 
 const (

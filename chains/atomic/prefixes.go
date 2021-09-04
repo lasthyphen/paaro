@@ -6,9 +6,9 @@ package atomic
 import (
 	"bytes"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/prefixdb"
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/prefixdb"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 var (

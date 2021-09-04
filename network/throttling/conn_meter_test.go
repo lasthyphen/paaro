@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/logging"
 	"github.com/stretchr/testify/assert"
 )
 

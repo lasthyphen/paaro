@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/crypto"
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/vms/components/verify"
 )
 
 var errCantSpend = errors.New("unable to spend this UTXO")

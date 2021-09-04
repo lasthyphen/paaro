@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/linkedhashmap"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/metric"
-	"github.com/djt-labs/paaro/utils/timer"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/linkedhashmap"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/metric"
+	"github.com/lasthyphen/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

@@ -6,8 +6,8 @@ package plugin
 import (
 	"context"
 
-	appproto "github.com/djt-labs/paaro/app/plugin/proto"
-	"github.com/djt-labs/paaro/app/process"
+	appproto "github.com/lasthyphen/paaro/app/plugin/proto"
+	"github.com/lasthyphen/paaro/app/process"
 )
 
 // Server wraps a node so it can be served with the hashicorp plugin harness

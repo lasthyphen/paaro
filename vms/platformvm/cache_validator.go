@@ -4,7 +4,7 @@
 package platformvm
 
 import (
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 var _ validator = &validatorImpl{}

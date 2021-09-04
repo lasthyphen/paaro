@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/networking/router"
-	"github.com/djt-labs/paaro/snow/networking/timeout"
-	"github.com/djt-labs/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/networking/router"
+	"github.com/lasthyphen/paaro/snow/networking/timeout"
+	"github.com/lasthyphen/paaro/utils/constants"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

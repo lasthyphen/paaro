@@ -4,7 +4,7 @@
 package health
 
 import (
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/logging"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

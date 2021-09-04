@@ -6,8 +6,8 @@ package chains
 import (
 	"sync"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/engine/common"
 )
 
 var _ Subnet = &subnet{}

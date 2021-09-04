@@ -10,12 +10,12 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/djt-labs/paaro/api/keystore"
-	"github.com/djt-labs/paaro/api/keystore/gkeystore/gkeystoreproto"
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/rpcdb"
-	"github.com/djt-labs/paaro/database/rpcdb/rpcdbproto"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/grpcutils"
+	"github.com/lasthyphen/paaro/api/keystore"
+	"github.com/lasthyphen/paaro/api/keystore/gkeystore/gkeystoreproto"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/rpcdb"
+	"github.com/lasthyphen/paaro/database/rpcdb/rpcdbproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/grpcutils"
 )
 
 var _ gkeystoreproto.KeystoreServer = &Server{}

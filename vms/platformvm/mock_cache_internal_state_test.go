@@ -3,10 +3,10 @@
 package platformvm
 
 import (
-	database "github.com/djt-labs/paaro/database"
-	djtx "github.com/djt-labs/paaro/vms/components/djtx"
+	database "github.com/lasthyphen/paaro/database"
+	djtx "github.com/lasthyphen/paaro/vms/components/djtx"
 
-	ids "github.com/djt-labs/paaro/ids"
+	ids "github.com/lasthyphen/paaro/ids"
 
 	mock "github.com/stretchr/testify/mock"
 

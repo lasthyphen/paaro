@@ -7,14 +7,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/utils/rpc"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/rpc"
 
-	cjson "github.com/djt-labs/paaro/utils/json"
+	cjson "github.com/lasthyphen/paaro/utils/json"
 )
 
 type Client struct {

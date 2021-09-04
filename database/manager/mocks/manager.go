@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	manager "github.com/djt-labs/paaro/database/manager"
+	manager "github.com/lasthyphen/paaro/database/manager"
 	mock "github.com/stretchr/testify/mock"
 
 	prometheus "github.com/prometheus/client_golang/prometheus"

@@ -4,7 +4,7 @@
 package crypto
 
 import (
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 type Factory interface {

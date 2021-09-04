@@ -4,7 +4,7 @@
 package choices
 
 import (
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Decidable represents element that can be decided.

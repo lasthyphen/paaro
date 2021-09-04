@@ -4,9 +4,9 @@
 package atomic
 
 import (
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/versiondb"
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/versiondb"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 var _ SharedMemory = &sharedMemory{}

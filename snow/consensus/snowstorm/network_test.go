@@ -6,12 +6,12 @@ package snowstorm
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/utils/sampler"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/utils/sampler"
 
-	sbcon "github.com/djt-labs/paaro/snow/consensus/snowball"
+	sbcon "github.com/lasthyphen/paaro/snow/consensus/snowball"
 )
 
 type Network struct {

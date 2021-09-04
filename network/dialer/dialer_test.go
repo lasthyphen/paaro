@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/logging"
 	"github.com/stretchr/testify/assert"
 )
 

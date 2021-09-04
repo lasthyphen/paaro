@@ -8,7 +8,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/utils/timer"
 )
 
 var errNoValidUniformSamplers = errors.New("no valid uniform samplers found")

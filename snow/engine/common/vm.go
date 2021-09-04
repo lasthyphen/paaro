@@ -4,10 +4,10 @@
 package common
 
 import (
-	"github.com/djt-labs/paaro/database/manager"
-	"github.com/djt-labs/paaro/health"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/validators"
+	"github.com/lasthyphen/paaro/database/manager"
+	"github.com/lasthyphen/paaro/health"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/validators"
 )
 
 // VM describes the interface that all consensus VMs must implement

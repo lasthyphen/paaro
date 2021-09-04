@@ -4,11 +4,11 @@
 package snowstorm
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/choices"
 
-	sbcon "github.com/djt-labs/paaro/snow/consensus/snowball"
+	sbcon "github.com/lasthyphen/paaro/snow/consensus/snowball"
 )
 
 // DirectedFactory implements Factory by returning a directed struct

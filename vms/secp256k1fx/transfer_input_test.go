@@ -7,9 +7,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/codec/linearcodec"
-	"github.com/djt-labs/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/codec/linearcodec"
+	"github.com/lasthyphen/paaro/vms/components/verify"
 )
 
 func TestTransferInputAmount(t *testing.T) {

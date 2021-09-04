@@ -10,12 +10,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/validators"
-	"github.com/djt-labs/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/validators"
+	"github.com/lasthyphen/paaro/utils/constants"
 
-	safemath "github.com/djt-labs/paaro/utils/math"
+	safemath "github.com/lasthyphen/paaro/utils/math"
 )
 
 var (

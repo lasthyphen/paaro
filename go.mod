@@ -1,4 +1,4 @@
-module github.com/djt-labs/paaro
+module github.com/lasthyphen/paaro
 
 // Changes to the minimum golang version must also be replicated in
 // scripts/ansible/roles/golang_based/defaults/main.yml

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // ExternalSenderTest is a test sender

@@ -7,9 +7,9 @@ import (
 	"container/list"
 	"testing"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/chains/atomic"
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/chains/atomic"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Returns:

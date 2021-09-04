@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/hashing"
 )
 
 var (

@@ -6,9 +6,9 @@ package info
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/network"
-	"github.com/djt-labs/paaro/utils/rpc"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/network"
+	"github.com/lasthyphen/paaro/utils/rpc"
 )
 
 // Client is an Info API Client

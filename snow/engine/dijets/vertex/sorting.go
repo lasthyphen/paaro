@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/hashing"
 )
 
 type sortHashOfData [][]byte

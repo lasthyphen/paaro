@@ -8,7 +8,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/djt-labs/paaro/utils/units"
+	"github.com/lasthyphen/paaro/utils/units"
 )
 
 var (

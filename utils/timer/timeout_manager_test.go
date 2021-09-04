@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 func TestTimeoutManager(t *testing.T) {

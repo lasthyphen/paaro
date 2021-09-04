@@ -4,8 +4,8 @@
 package genesis
 
 import (
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/sampler"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/sampler"
 )
 
 // getIPs returns the beacon IPs for each network

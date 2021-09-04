@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/database/encdb"
-	"github.com/djt-labs/paaro/database/memdb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/database/encdb"
+	"github.com/lasthyphen/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/crypto"
 )
 
 func TestUserNilDB(t *testing.T) {

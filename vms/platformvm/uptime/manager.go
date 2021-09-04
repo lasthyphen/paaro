@@ -6,9 +6,9 @@ package uptime
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/timer"
 )
 
 var _ TestManager = &manager{}

@@ -4,7 +4,7 @@
 package benchlist
 
 import (
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Benchable is notified when a validator is benched or unbenched from a given chain

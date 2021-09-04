@@ -4,8 +4,8 @@
 package vertex
 
 import (
-	"github.com/djt-labs/paaro/snow/consensus/dijets"
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/snow/consensus/dijets"
+	"github.com/lasthyphen/paaro/utils/hashing"
 )
 
 // Parser parses bytes into a vertex.

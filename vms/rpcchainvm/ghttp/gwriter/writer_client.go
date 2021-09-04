@@ -8,7 +8,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
 )
 
 var _ io.Writer = &Client{}

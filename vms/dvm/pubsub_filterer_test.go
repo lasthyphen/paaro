@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/djt-labs/paaro/pubsub"
-	"github.com/djt-labs/paaro/vms/components/djtx"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/pubsub"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 type mockFilter struct {

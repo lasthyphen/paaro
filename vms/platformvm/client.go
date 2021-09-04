@@ -6,12 +6,12 @@ package platformvm
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/formatting"
-	cjson "github.com/djt-labs/paaro/utils/json"
-	"github.com/djt-labs/paaro/utils/rpc"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	cjson "github.com/lasthyphen/paaro/utils/json"
+	"github.com/lasthyphen/paaro/utils/rpc"
 )
 
 type Client struct {

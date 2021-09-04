@@ -6,7 +6,7 @@ package common
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // SenderTest is a test sender

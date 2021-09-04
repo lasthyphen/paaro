@@ -9,15 +9,15 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/djt-labs/paaro/chains"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/network"
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/json"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/version"
-	"github.com/djt-labs/paaro/vms"
+	"github.com/lasthyphen/paaro/chains"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/network"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/json"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/version"
+	"github.com/lasthyphen/paaro/vms"
 )
 
 // Info is the API service for unprivileged info on a node

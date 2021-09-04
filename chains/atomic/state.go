@@ -7,13 +7,13 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/linkeddb"
-	"github.com/djt-labs/paaro/database/prefixdb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/linkeddb"
+	"github.com/lasthyphen/paaro/database/prefixdb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/hashing"
 )
 
 var errDuplicatedOperation = errors.New("duplicated operation on provided value")

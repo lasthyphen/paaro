@@ -9,14 +9,14 @@ import (
 
 	stdjson "encoding/json"
 
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/utils/json"
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/utils/json"
+	"github.com/lasthyphen/paaro/utils/logging"
 	"github.com/gorilla/rpc/v2"
 	"github.com/prometheus/client_golang/prometheus"
 
 	health "github.com/AppsFlyer/go-sundheit"
-	healthlib "github.com/djt-labs/paaro/health"
+	healthlib "github.com/lasthyphen/paaro/health"
 )
 
 var _ Service = &apiServer{}

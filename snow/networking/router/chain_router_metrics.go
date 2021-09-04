@@ -4,7 +4,7 @@
 package router
 
 import (
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

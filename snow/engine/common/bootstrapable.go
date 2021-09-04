@@ -4,7 +4,7 @@
 package common
 
 import (
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Bootstrapable defines the functionality required to support bootstrapping

@@ -8,11 +8,11 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/djt-labs/paaro/app/process"
-	"github.com/djt-labs/paaro/config"
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/version"
+	"github.com/lasthyphen/paaro/app/process"
+	"github.com/lasthyphen/paaro/config"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/version"
 )
 
 // main is the entry point to Paaro.

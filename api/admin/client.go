@@ -6,8 +6,8 @@ package admin
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/utils/rpc"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/utils/rpc"
 )
 
 // Client for the Dijets Platform Info API Endpoint

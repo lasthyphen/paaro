@@ -6,8 +6,8 @@ package platformvm
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/crypto"
 )
 
 func TestTxHeapStart(t *testing.T) {

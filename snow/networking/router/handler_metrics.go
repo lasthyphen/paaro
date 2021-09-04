@@ -8,9 +8,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/metric"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/metric"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 func initAverager(namespace, name string, reg prometheus.Registerer, errs *wrappers.Errs) metric.Averager {

@@ -4,7 +4,7 @@
 package common
 
 import (
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Sender defines how a consensus engine sends messages and requests to other

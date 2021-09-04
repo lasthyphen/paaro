@@ -12,12 +12,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/database/leveldb"
-	"github.com/djt-labs/paaro/database/memdb"
-	"github.com/djt-labs/paaro/database/meterdb"
-	"github.com/djt-labs/paaro/database/prefixdb"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/version"
+	"github.com/lasthyphen/paaro/database/leveldb"
+	"github.com/lasthyphen/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/database/meterdb"
+	"github.com/lasthyphen/paaro/database/prefixdb"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/version"
 )
 
 func TestNewSingleLevelDB(t *testing.T) {

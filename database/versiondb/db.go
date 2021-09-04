@@ -8,10 +8,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/memdb"
-	"github.com/djt-labs/paaro/database/nodb"
-	"github.com/djt-labs/paaro/utils"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/database/nodb"
+	"github.com/lasthyphen/paaro/utils"
 )
 
 const (

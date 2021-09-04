@@ -4,9 +4,9 @@
 package snowman
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/consensus/snowball"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/consensus/snowball"
 )
 
 // Consensus represents a general snowman instance that can be used directly to

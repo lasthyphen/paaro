@@ -4,7 +4,7 @@
 package message
 
 import (
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 // Field that may be packed into a message

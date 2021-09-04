@@ -4,9 +4,9 @@
 package keystore
 
 import (
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/encdb"
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/encdb"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 var _ BlockchainKeystore = &blockchainKeystore{}

@@ -4,8 +4,8 @@
 package snowman
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/choices"
 )
 
 // Block is a possible decision that dictates the next canonical block.

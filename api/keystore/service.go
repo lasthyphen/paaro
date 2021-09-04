@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/database/manager"
-	"github.com/djt-labs/paaro/database/memdb"
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/version"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/database/manager"
+	"github.com/lasthyphen/paaro/database/memdb"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/version"
 )
 
 type service struct {

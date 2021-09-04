@@ -6,7 +6,7 @@ package poll
 import (
 	"fmt"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Set is a collection of polls

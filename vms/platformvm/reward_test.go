@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/units"
+	"github.com/lasthyphen/paaro/utils/units"
 )
 
 func TestRewardLongerDurationBonus(t *testing.T) {

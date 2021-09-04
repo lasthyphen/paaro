@@ -8,12 +8,12 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/ipcs/socket"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/triggers"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/ipcs/socket"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/triggers"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 // EventSockets is a set of named eventSockets

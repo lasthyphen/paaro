@@ -8,8 +8,8 @@ package rocksdb
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/utils/logging"
 )
 
 func TestInterface(t *testing.T) {

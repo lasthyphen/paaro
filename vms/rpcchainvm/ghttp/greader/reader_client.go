@@ -8,7 +8,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/djt-labs/paaro/vms/rpcchainvm/ghttp/greader/greaderproto"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/ghttp/greader/greaderproto"
 )
 
 var _ io.Reader = &Client{}

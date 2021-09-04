@@ -4,8 +4,8 @@
 package vertex
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/consensus/dijets"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/consensus/dijets"
 )
 
 // Storage defines the persistent storage that is required by the consensus

@@ -9,8 +9,8 @@ import (
 	"errors"
 	"math"
 
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/hashing"
 )
 
 const (

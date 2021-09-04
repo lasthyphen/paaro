@@ -7,10 +7,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 
-	"github.com/djt-labs/paaro/database/manager"
-	"github.com/djt-labs/paaro/snow"
+	"github.com/lasthyphen/paaro/database/manager"
+	"github.com/lasthyphen/paaro/snow"
 )
 
 var (

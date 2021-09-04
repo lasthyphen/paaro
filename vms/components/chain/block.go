@@ -4,7 +4,7 @@
 package chain
 
 import (
-	"github.com/djt-labs/paaro/snow/consensus/snowman"
+	"github.com/lasthyphen/paaro/snow/consensus/snowman"
 )
 
 // BlockWrapper wraps a snowman Block while adding a smart caching layer to improve

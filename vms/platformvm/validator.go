@@ -7,8 +7,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/constants"
 )
 
 var errBadSubnetID = errors.New("subnet ID can't be primary network ID")

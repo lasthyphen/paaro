@@ -6,7 +6,7 @@ package platformvm
 import (
 	"fmt"
 
-	"github.com/djt-labs/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/constants"
 )
 
 // Health implements the common.VM interface

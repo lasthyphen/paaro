@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 type timeout struct {

@@ -6,7 +6,7 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // nnarySnowball is a naive implementation of a multi-color snowball instance

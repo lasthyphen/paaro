@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/perms"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/perms"
 )
 
 var filePrefix = fmt.Sprintf("%s/", constants.AppName)

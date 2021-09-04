@@ -4,8 +4,8 @@
 package dijets
 
 import (
-	"github.com/djt-labs/paaro/snow/consensus/dijets"
-	"github.com/djt-labs/paaro/snow/engine/dijets/bootstrap"
+	"github.com/lasthyphen/paaro/snow/consensus/dijets"
+	"github.com/lasthyphen/paaro/snow/engine/dijets/bootstrap"
 )
 
 // Config wraps all the parameters needed for an dijets engine

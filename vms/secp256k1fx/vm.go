@@ -4,9 +4,9 @@
 package secp256k1fx
 
 import (
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/timer"
 )
 
 // VM that this Fx must be run by

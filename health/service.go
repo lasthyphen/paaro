@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/logging"
 	"github.com/prometheus/client_golang/prometheus"
 
 	health "github.com/AppsFlyer/go-sundheit"

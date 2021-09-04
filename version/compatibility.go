@@ -7,7 +7,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/djt-labs/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/utils/timer"
 )
 
 var (

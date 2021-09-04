@@ -6,7 +6,7 @@ package snowball
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/utils/sampler"
+	"github.com/lasthyphen/paaro/utils/sampler"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

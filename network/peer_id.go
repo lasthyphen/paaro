@@ -6,7 +6,7 @@ package network
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 type PeerID struct {

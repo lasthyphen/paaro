@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/djt-labs/paaro/utils/formatting"
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/hashing"
 )
 
 // ShortEmpty is a useful all zero value

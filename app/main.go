@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/djt-labs/paaro/app/entry"
-	"github.com/djt-labs/paaro/config"
-	"github.com/djt-labs/paaro/version"
+	"github.com/lasthyphen/paaro/app/entry"
+	"github.com/lasthyphen/paaro/config"
+	"github.com/lasthyphen/paaro/version"
 )
 
 func main() {

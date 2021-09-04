@@ -5,7 +5,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/cache"
+	"github.com/lasthyphen/paaro/cache"
 )
 
 func TestInterface(t *testing.T) {

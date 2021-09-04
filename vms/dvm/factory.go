@@ -4,8 +4,8 @@
 package dvm
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
 )
 
 // ID that this VM uses when labeled

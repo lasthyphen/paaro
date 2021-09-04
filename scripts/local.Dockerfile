@@ -12,14 +12,14 @@
 # go.mod
 FROM golang:1.15.5-buster
 
-RUN mkdir -p /go/src/github.com/djt-labs
+RUN mkdir -p /go/src/github.com/lasthyphen
 
-WORKDIR $GOPATH/src/github.com/djt-labs
+WORKDIR $GOPATH/src/github.com/lasthyphen
 COPY paaro paaro
 COPY coreth coreth
 
-WORKDIR $GOPATH/src/github.com/djt-labs/paaro
+WORKDIR $GOPATH/src/github.com/lasthyphen/paaro
 RUN ./scripts/build_dijets.sh
 RUN ./scripts/build_coreth.sh ../coreth $PWD/build/plugins/evm
 
-RUN ln -sv $GOPATH/src/github.com/djt-labs/dijets-byzantine/ /paaro
+RUN ln -sv $GOPATH/src/github.com/lasthyphen/dijets-byzantine/ /paaro

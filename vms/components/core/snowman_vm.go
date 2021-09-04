@@ -8,15 +8,15 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/versiondb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/snow/consensus/snowman"
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/utils/json"
-	"github.com/djt-labs/paaro/vms/components/state"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/versiondb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/snow/consensus/snowman"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/utils/json"
+	"github.com/lasthyphen/paaro/vms/components/state"
 )
 
 var errBadData = errors.New("got unexpected value from database")

@@ -6,12 +6,12 @@ package router
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/health"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/networking/benchlist"
-	"github.com/djt-labs/paaro/snow/networking/timeout"
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/health"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/networking/benchlist"
+	"github.com/lasthyphen/paaro/snow/networking/timeout"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/logging"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

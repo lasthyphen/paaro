@@ -1,8 +1,8 @@
 package chains
 
 import (
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/networking/router"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/networking/router"
 )
 
 // MockManager implements Manager but does nothing. Always returns nil error.

@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/utils/subprocess"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/utils/subprocess"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 )

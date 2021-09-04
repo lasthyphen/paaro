@@ -4,7 +4,7 @@
 package snowman
 
 import (
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Voter records chits received from [vdr] once its dependencies are met.

@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/djt-labs/paaro/database/encdb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/database/encdb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/crypto"
 )
 
 // Key in the database whose corresponding value is the list of

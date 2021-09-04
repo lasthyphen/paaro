@@ -3,11 +3,11 @@ package nftfx
 import (
 	"errors"
 
-	"github.com/djt-labs/paaro/vms/types"
+	"github.com/lasthyphen/paaro/vms/types"
 
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/vms/components/verify"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 var errNilMintOperation = errors.New("nil mint operation")

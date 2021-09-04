@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/djt-labs/paaro/staking"
+	"github.com/lasthyphen/paaro/staking"
 
-	"github.com/djt-labs/paaro/utils"
+	"github.com/lasthyphen/paaro/utils"
 
 	"github.com/stretchr/testify/assert"
 )

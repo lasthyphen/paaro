@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/djt-labs/paaro/utils/crypto"
-	"github.com/djt-labs/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/utils/formatting"
 )
 
 var errNilCredential = errors.New("nil credential")

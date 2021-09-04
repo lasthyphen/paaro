@@ -9,14 +9,14 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/api/server"
-	"github.com/djt-labs/paaro/chains"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/ipcs"
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/utils/json"
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/api/server"
+	"github.com/lasthyphen/paaro/chains"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/ipcs"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/utils/json"
+	"github.com/lasthyphen/paaro/utils/logging"
 )
 
 // IPCServer maintains the IPCs

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/uptime"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/uptime"
 )
 
 func TestCPUTracker(t *testing.T) {

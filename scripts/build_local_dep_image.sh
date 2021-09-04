@@ -14,11 +14,11 @@ DOCKER="${DOCKER:-docker}"
 SCRIPT_DIRPATH=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 ROOT_DIRPATH="$(dirname "${SCRIPT_DIRPATH}")"
 
-DJT_LABS_RELATIVE_PATH="src/github.com/djt-labs"
+DJT_LABS_RELATIVE_PATH="src/github.com/lasthyphen"
 EXISTING_GOPATH="$GOPATH"
 
 export GOPATH="$SCRIPT_DIRPATH/.build_image_gopath"
-WORKPREFIX="$GOPATH/src/github.com/djt-labs"
+WORKPREFIX="$GOPATH/src/github.com/lasthyphen"
 
 # Clone the remotes and checkout the desired branch/commits
 DIJETS_CLONE="$WORKPREFIX/paaro"

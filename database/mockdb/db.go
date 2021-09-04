@@ -6,7 +6,7 @@ package mockdb
 import (
 	"errors"
 
-	"github.com/djt-labs/paaro/database"
+	"github.com/lasthyphen/paaro/database"
 )
 
 var (

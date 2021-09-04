@@ -6,7 +6,7 @@ package linkedhashmap
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 	"github.com/stretchr/testify/assert"
 )
 

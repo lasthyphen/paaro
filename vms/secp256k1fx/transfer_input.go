@@ -6,7 +6,7 @@ package secp256k1fx
 import (
 	"errors"
 
-	"github.com/djt-labs/paaro/snow"
+	"github.com/lasthyphen/paaro/snow"
 )
 
 var errNoValueInput = errors.New("input has no value")

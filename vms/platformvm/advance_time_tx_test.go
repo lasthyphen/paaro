@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/crypto"
 )
 
 // Ensure semantic verification fails when proposed timestamp is at or before current timestamp
@@ -361,7 +361,7 @@ func TestAdvanceTimeTxUpdatePrimaryNetworkStakers2(t *testing.T) {
 	}
 }
 
-// Regression test for https://github.com/djt-labs/paaro/pull/584
+// Regression test for https://github.com/lasthyphen/paaro/pull/584
 // that ensures it fixes a bug where subnet validators are not removed
 // when timestamp is advanced and there is a pending staker whose start time
 // is after the new timestamp

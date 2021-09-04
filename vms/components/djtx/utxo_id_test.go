@@ -6,9 +6,9 @@ package djtx
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/codec/linearcodec"
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/codec/linearcodec"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 func TestUTXOIDVerifyNil(t *testing.T) {

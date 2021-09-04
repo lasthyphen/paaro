@@ -1,6 +1,6 @@
 package indexer
 
-import "github.com/djt-labs/paaro/ids"
+import "github.com/lasthyphen/paaro/ids"
 
 // Container is something that gets accepted
 // (a block, transaction or vertex)

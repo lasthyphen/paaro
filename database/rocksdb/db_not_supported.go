@@ -8,8 +8,8 @@ package rocksdb
 import (
 	"errors"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/utils/logging"
 )
 
 var errUnsupportedDatabase = errors.New("database isn't suppported")

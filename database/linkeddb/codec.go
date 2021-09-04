@@ -6,9 +6,9 @@ package linkeddb
 import (
 	"math"
 
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/codec/linearcodec"
-	"github.com/djt-labs/paaro/codec/reflectcodec"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/codec/linearcodec"
+	"github.com/lasthyphen/paaro/codec/reflectcodec"
 )
 
 const (

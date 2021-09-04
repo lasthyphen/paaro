@@ -11,16 +11,16 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/djt-labs/paaro/chains/atomic"
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/encdb"
-	"github.com/djt-labs/paaro/database/manager"
-	"github.com/djt-labs/paaro/database/prefixdb"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/password"
+	"github.com/lasthyphen/paaro/chains/atomic"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/encdb"
+	"github.com/lasthyphen/paaro/database/manager"
+	"github.com/lasthyphen/paaro/database/prefixdb"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/password"
 
-	jsoncodec "github.com/djt-labs/paaro/utils/json"
+	jsoncodec "github.com/lasthyphen/paaro/utils/json"
 )
 
 const (

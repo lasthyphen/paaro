@@ -3,7 +3,7 @@ package nftfx
 import (
 	"encoding/json"
 
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 type MintOutput struct {

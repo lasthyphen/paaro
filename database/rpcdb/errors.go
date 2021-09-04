@@ -4,7 +4,7 @@
 package rpcdb
 
 import (
-	"github.com/djt-labs/paaro/database"
+	"github.com/lasthyphen/paaro/database"
 )
 
 var (

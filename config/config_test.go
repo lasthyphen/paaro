@@ -17,8 +17,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/chains"
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/chains"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 func TestSetChainConfigs(t *testing.T) {

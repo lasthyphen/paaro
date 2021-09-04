@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/djt-labs/paaro/utils/wrappers"
-	"github.com/djt-labs/paaro/vms/components/verify"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 var (

@@ -6,7 +6,7 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/djt-labs/paaro/utils/formatting"
+	"github.com/lasthyphen/paaro/utils/formatting"
 )
 
 // JSONByteSlice represents [[]byte] that is json marshalled to hex

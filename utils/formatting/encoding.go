@@ -11,7 +11,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/utils/hashing"
 	"github.com/mr-tron/base58/base58"
 )
 

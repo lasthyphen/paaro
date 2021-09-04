@@ -44,8 +44,8 @@ source "$DIJETS_PATH"/scripts/constants.sh
 # Build with rocksdb allowed only if the environment variable ROCKSDBALLOWED is set
 if [ -z ${ROCKSDBALLOWED+x} ]; then
     echo "Building Paaro..."
-    go build -ldflags "-X github.com/djt-labs/paaro/version.GitCommit=$git_commit $static_ld_flags" -o "$paaro_path" "$DIJETS_PATH/app/"*.go
+    go build -ldflags "-X github.com/lasthyphen/paaro/version.GitCommit=$git_commit $static_ld_flags" -o "$paaro_path" "$DIJETS_PATH/app/"*.go
 else
     echo "Building Paaro with rocksdb enabled..."
-    go build -tags rocksdballowed -ldflags "-X github.com/djt-labs/paaro/version.GitCommit=$git_commit $static_ld_flags" -o "$paaro_path" "$DIJETS_PATH/app/"*.go
+    go build -tags rocksdballowed -ldflags "-X github.com/lasthyphen/paaro/version.GitCommit=$git_commit $static_ld_flags" -o "$paaro_path" "$DIJETS_PATH/app/"*.go
 fi

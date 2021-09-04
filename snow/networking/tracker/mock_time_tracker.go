@@ -3,7 +3,7 @@
 package tracker
 
 import (
-	ids "github.com/djt-labs/paaro/ids"
+	ids "github.com/lasthyphen/paaro/ids"
 	mock "github.com/stretchr/testify/mock"
 
 	time "time"

@@ -6,9 +6,9 @@ package djtx
 import (
 	"fmt"
 
-	"github.com/djt-labs/paaro/chains/atomic"
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/chains/atomic"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 const (

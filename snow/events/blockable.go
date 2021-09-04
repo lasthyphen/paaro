@@ -4,7 +4,7 @@
 package events
 
 import (
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Blockable defines what an object must implement to be able to block on events

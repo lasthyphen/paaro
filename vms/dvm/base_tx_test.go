@@ -8,14 +8,14 @@ import (
 	"math"
 	"testing"
 
-	"github.com/djt-labs/paaro/database/manager"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/utils/crypto"
-	"github.com/djt-labs/paaro/version"
-	"github.com/djt-labs/paaro/vms/components/djtx"
-	"github.com/djt-labs/paaro/vms/components/verify"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/database/manager"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/utils/crypto"
+	"github.com/lasthyphen/paaro/version"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 func TestBaseTxSerialization(t *testing.T) {

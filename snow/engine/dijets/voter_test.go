@@ -6,11 +6,11 @@ package dijets
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/snow/engine/dijets/vertex"
+	"github.com/lasthyphen/paaro/snow/engine/dijets/vertex"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 func TestVotingFinishesWithAbandonedDep(t *testing.T) {

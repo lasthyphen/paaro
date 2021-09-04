@@ -9,8 +9,8 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/ids"
 	"github.com/stretchr/testify/assert"
 )
 

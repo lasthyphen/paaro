@@ -6,8 +6,8 @@ package metercacher
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/cache"
-	"github.com/djt-labs/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/cache"
+	"github.com/lasthyphen/paaro/utils/timer"
 )
 
 var _ cache.Cacher = &Cache{}

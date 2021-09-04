@@ -6,8 +6,8 @@ package meterdb
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/utils/timer"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/utils/timer"
 )
 
 var (

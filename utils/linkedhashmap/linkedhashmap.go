@@ -7,7 +7,7 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Hashmap provides an O(1) mapping from a comparable key to any value.

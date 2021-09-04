@@ -6,11 +6,11 @@ package dvm
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/djt-labs/paaro/cache"
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/prefixdb"
-	"github.com/djt-labs/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/cache"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/prefixdb"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
 )
 
 const (

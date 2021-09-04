@@ -9,17 +9,17 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/api/server"
-	"github.com/djt-labs/paaro/chains"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/utils/constants"
-	"github.com/djt-labs/paaro/utils/logging"
-	"github.com/djt-labs/paaro/utils/perms"
-	"github.com/djt-labs/paaro/utils/profiler"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/api/server"
+	"github.com/lasthyphen/paaro/chains"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/utils/constants"
+	"github.com/lasthyphen/paaro/utils/logging"
+	"github.com/lasthyphen/paaro/utils/perms"
+	"github.com/lasthyphen/paaro/utils/profiler"
 
-	cjson "github.com/djt-labs/paaro/utils/json"
+	cjson "github.com/lasthyphen/paaro/utils/json"
 )
 
 const (

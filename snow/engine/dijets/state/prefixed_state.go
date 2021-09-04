@@ -4,10 +4,10 @@
 package state
 
 import (
-	"github.com/djt-labs/paaro/cache"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow/choices"
-	"github.com/djt-labs/paaro/snow/engine/dijets/vertex"
+	"github.com/lasthyphen/paaro/cache"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow/choices"
+	"github.com/lasthyphen/paaro/snow/engine/dijets/vertex"
 )
 
 const (

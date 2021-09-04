@@ -8,12 +8,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/nodb"
-	"github.com/djt-labs/paaro/database/rpcdb/rpcdbproto"
-	"github.com/djt-labs/paaro/utils"
-	"github.com/djt-labs/paaro/utils/units"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/nodb"
+	"github.com/lasthyphen/paaro/database/rpcdb/rpcdbproto"
+	"github.com/lasthyphen/paaro/utils"
+	"github.com/lasthyphen/paaro/utils/units"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 const (

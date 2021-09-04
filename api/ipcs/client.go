@@ -6,9 +6,9 @@ package ipcs
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils/rpc"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils/rpc"
 )
 
 type Client struct {

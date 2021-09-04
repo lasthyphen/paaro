@@ -3,7 +3,7 @@
 
 package codec
 
-import "github.com/djt-labs/paaro/utils/wrappers"
+import "github.com/lasthyphen/paaro/utils/wrappers"
 
 // Codec marshals and unmarshals
 type Codec interface {

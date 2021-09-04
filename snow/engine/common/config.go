@@ -6,8 +6,8 @@ package common
 import (
 	"time"
 
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/snow/validators"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/snow/validators"
 )
 
 // Config wraps the common configurations that are needed by a Snow consensus

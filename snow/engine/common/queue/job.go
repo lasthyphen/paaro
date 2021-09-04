@@ -4,7 +4,7 @@
 package queue
 
 import (
-	"github.com/djt-labs/paaro/ids"
+	"github.com/lasthyphen/paaro/ids"
 )
 
 // Job defines the interface required to be placed on the job queue.

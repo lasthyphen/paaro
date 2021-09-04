@@ -7,8 +7,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/djt-labs/paaro/snow/engine/common"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/messenger/messengerproto"
+	"github.com/lasthyphen/paaro/snow/engine/common"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/messenger/messengerproto"
 )
 
 var (

@@ -6,9 +6,9 @@ package galiaslookup
 import (
 	"context"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/vms/rpcchainvm/galiaslookup/galiaslookupproto"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/vms/rpcchainvm/galiaslookup/galiaslookupproto"
 )
 
 var _ galiaslookupproto.AliasLookupServer = &Server{}

@@ -3,8 +3,8 @@ package propertyfx
 import (
 	"testing"
 
-	"github.com/djt-labs/paaro/vms/components/verify"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/vms/components/verify"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 )
 
 func TestMintOperationVerifyNil(t *testing.T) {

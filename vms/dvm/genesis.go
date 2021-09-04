@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/djt-labs/paaro/utils"
+	"github.com/lasthyphen/paaro/utils"
 )
 
 type Genesis struct {

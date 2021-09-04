@@ -4,9 +4,9 @@
 package common
 
 import (
-	"github.com/djt-labs/paaro/health"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
+	"github.com/lasthyphen/paaro/health"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
 )
 
 // Engine describes the standard interface of a consensus engine

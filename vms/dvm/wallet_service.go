@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/djt-labs/paaro/api"
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/vms/components/djtx"
-	"github.com/djt-labs/paaro/vms/secp256k1fx"
+	"github.com/lasthyphen/paaro/api"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/vms/components/djtx"
+	"github.com/lasthyphen/paaro/vms/secp256k1fx"
 
-	"github.com/djt-labs/paaro/utils/formatting"
-	safemath "github.com/djt-labs/paaro/utils/math"
+	"github.com/lasthyphen/paaro/utils/formatting"
+	safemath "github.com/lasthyphen/paaro/utils/math"
 )
 
 type WalletService struct {

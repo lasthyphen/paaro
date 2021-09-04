@@ -6,7 +6,7 @@ package pubsub
 import (
 	"sync"
 
-	"github.com/djt-labs/paaro/utils/bloom"
+	"github.com/lasthyphen/paaro/utils/bloom"
 )
 
 type FilterParam struct {

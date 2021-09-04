@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/djt-labs/paaro/codec"
-	"github.com/djt-labs/paaro/codec/reflectcodec"
-	"github.com/djt-labs/paaro/utils/wrappers"
+	"github.com/lasthyphen/paaro/codec"
+	"github.com/lasthyphen/paaro/codec/reflectcodec"
+	"github.com/lasthyphen/paaro/utils/wrappers"
 )
 
 const (

@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/snow"
-	"github.com/djt-labs/paaro/vms/types"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/snow"
+	"github.com/lasthyphen/paaro/vms/types"
 )
 
 // MaxMemoSize is the maximum number of bytes in the memo field

@@ -6,9 +6,9 @@ package prefixdb
 import (
 	"sync"
 
-	"github.com/djt-labs/paaro/database"
-	"github.com/djt-labs/paaro/database/nodb"
-	"github.com/djt-labs/paaro/utils/hashing"
+	"github.com/lasthyphen/paaro/database"
+	"github.com/lasthyphen/paaro/database/nodb"
+	"github.com/lasthyphen/paaro/utils/hashing"
 )
 
 const (

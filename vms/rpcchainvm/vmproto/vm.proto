@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package vmproto;
 
-option go_package = "github.com/djt-labs/paaro/vms/rpcchainvm/vmproto";
+option go_package = "github.com/lasthyphen/paaro/vms/rpcchainvm/vmproto";
 
 // To compile: protoc --go_out=plugins=grpc:. vm.proto
 

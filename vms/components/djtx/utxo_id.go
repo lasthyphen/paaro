@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/djt-labs/paaro/ids"
-	"github.com/djt-labs/paaro/utils"
+	"github.com/lasthyphen/paaro/ids"
+	"github.com/lasthyphen/paaro/utils"
 )
 
 var errNilUTXOID = errors.New("nil utxo ID is not valid")
