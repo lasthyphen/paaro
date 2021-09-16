@@ -46,7 +46,7 @@ var (
 			},
 			{
 				"ethAddr": "0xb3d82b1367d362de99ab59a658165aff520cbd4d",
-				"djtxAddr": "X-djtx1l7yzer5v5rntzuxyp3wgw5j09z6atntsac4j6d",
+				"djtxAddr": "X-djtx1l7yzer5v5rntzuxyp3wgw5j09z6atntsm2tzd5",
 				"initialAmount": 55000000000,
 				"unlockSchedule": [
 					{
@@ -123027,7 +123027,7 @@ var (
 			},
 			{
 				"ethAddr": "0xb3d82b1367d362de99ab59a658165aff520cbd4d",
-				"djtxAddr": "X-djtx1l7yzer5v5rntzuxyp3wgw5j09z6atntsac4j6d",
+				"djtxAddr": "X-djtx1l7yzer5v5rntzuxyp3wgw5j09z6atntsm2tzd5",
 				"initialAmount": 220000000000,
 				"unlockSchedule": [
 					{

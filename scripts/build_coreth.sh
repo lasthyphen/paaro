@@ -14,21 +14,11 @@ source "$DIJETS_PATH"/scripts/versions.sh
 source "$DIJETS_PATH"/scripts/constants.sh
 
 # check if there's args defining different coreth source and build paths
-if [[ $# -eq 2 ]]; then
-    coreth_path=$1
-    evm_path=$2
-elif [[ $# -eq 0 ]]; then
-    if [[ ! -d "$coreth_path" ]]; then
-        go get "github.com/lasthyphen/coreth@$coreth_version"
-    fi
-else
-    echo "Invalid arguments to build coreth. Requires either no arguments (default) or two arguments to specify coreth directory and location to add binary."
-    exit 1
-fi
+
 
 # Build Coreth
 echo "Building Coreth @ ${coreth_version} ..."
-cd "$coreth_path"
+cd "$DIJETS_PATH/coreth"
 go build -ldflags "-X github.com/lasthyphen/coreth/plugin/evm.Version=$coreth_version $static_ld_flags" -o "$evm_path" "plugin/"*.go
 cd "$DIJETS_PATH"
 
